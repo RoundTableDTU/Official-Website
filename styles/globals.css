@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.shadow-neon-green {
+    box-shadow:
+    /* White glow */
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.shadow-neon-orange-primary {
+    box-shadow:
+    /* White glow */
+    0 0 7px rgb(99, 99, 99),
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Orange glow */
+    0 0 42px rgba(255, 153, 0, 0.3),
+    0 0 82px rgba(255, 153, 0, 0.3),
+    0 0 92px rgba(255, 153, 0, 0.3),
+    0 0 102px rgba(255, 153, 0, 0.3),
+    /* 0 0 151px rgba(255, 153, 0, 0.3), */
+    /*Orange glow  inset*/
+    inset 0 0 42px rgba(255, 153, 0, 0.3);
+}
+
+.shadow-neon-orange-muted {
+    box-shadow:
+    /* White glow */
+    0 0 7px rgb(99, 99, 99),
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Orange glow */
+    0 0 24px rgba(255, 153, 0, 0.3),
+    0 0 54px rgba(255, 153, 0, 0.3),
+    0 0 85px rgba(255, 153, 0, 0.3),
+    0 0 95px rgba(255, 153, 0, 0.3),
+    /* 0 0 151px rgba(255, 153, 0, 0.3), */
+    /*Orange glow  inset*/
+    inset 0 0 42px rgba(255, 153, 0, 0.3);
+}
+
+.shadow-neon-red-primary {
+    box-shadow:
+    /* White glow */
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Red glow */
+    0 0 42px rgba(155, 48, 48, 0.541),
+    0 0 82px rgba(155, 48, 48, 0.541),
+    0 0 92px rgba(155, 48, 48, 0.541),
+    0 0 102px rgba(155, 48, 48, 0.541),
+    0 0 151px rgba(155, 48, 48, 0.541);
+}
+
+.shadow-neon-yellow-primary {
+    box-shadow:
+    /* White glow */
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Yellow glow */
+    0 0 42px rgba(211, 168, 66, 1),
+    0 0 82px rgba(211, 168, 66, 1),
+    0 0 92px rgba(211, 168, 66, 1),
+    0 0 102px rgba(211, 168, 66, 1),
+    0 0 151px rgba(211, 168, 66, 1);
+}
+
+.shadow-neon-yellow-muted {
+    box-shadow:
+    /* White glow */
+    0 0 7px rgb(99, 99, 99),
+    0 0 10px rgb(99, 99, 99),
+    0 0 21px #fff,
+    /* Yellow glow */
+    0 0 24px rgba(211, 168, 66, 0.3),
+    0 0 54px rgba(211, 168, 66, 0.3),
+    0 0 85px rgba(211, 168, 66, 0.3),
+    0 0 95px rgba(211, 168, 66, 0.3);
+}
