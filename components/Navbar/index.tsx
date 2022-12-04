@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import ActiveLink from "./ActiveLink";
 
 type Props = {};
 
@@ -16,15 +16,13 @@ const Navbar = (props: Props) => {
             alt="round table logo png"
           />
         </div>
-        <h1 className="text-2xl md:text-3xl underline font-bold">
-          RoundTable
-        </h1>
+        <h1 className="text-2xl md:text-3xl underline font-bold">RoundTable</h1>
       </div>
       <div className="w-full md:w-1/3 flex justify-evenly text-xl p-4 font-poppins font-normal md:p-0">
-        <Link className="py-3 px-5" href='/'>Home</Link>
-        <Link className=" active-page  py-3 px-5" href={"/about"}>About</Link>
-        <Link className=" py-3 px-5" href={"/team"}>Team</Link>
-        <Link className=" py-3 px-5" href={"/events"}>Events</Link>
+        <ActiveLink href="/">Home</ActiveLink>
+        <ActiveLink href={"/about"}>About</ActiveLink>
+        <ActiveLink href={"/team"}>Team</ActiveLink>
+        <ActiveLink href={"/events"}>Events</ActiveLink>
       </div>
     </div>
   );

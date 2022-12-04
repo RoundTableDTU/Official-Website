@@ -20,7 +20,6 @@ const AboutCards = (props: Props) => {
             alt={"sex"}
             className="rounded-t-lg w-full h-40"
           />
-
           <h2 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold py-2 bg-primary-orange rounded-md px-6">
             {props.title}
           </h2>
