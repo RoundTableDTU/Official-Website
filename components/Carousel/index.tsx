@@ -45,7 +45,7 @@ const Carousel = (props: Props) => {
           loop={true}
           centeredSlides={true}
           autoplay={{
-            delay: 300000000,
+            delay: 6000,
             disableOnInteraction: false,
           }}
           pagination={{
