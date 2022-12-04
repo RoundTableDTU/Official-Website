@@ -22,8 +22,8 @@ const Navbar = (props: Props) => {
       </div>
       <div className="w-full md:w-1/3 flex justify-evenly text-xl p-4 font-poppins font-normal md:p-0">
         <Link className="py-3 px-5" href='/'>Home</Link>
-        <Link className="   py-3 px-5" href={"/about"}>About</Link>
-        <Link className="active-page py-3 px-5" href={"/team"}>Team</Link>
+        <Link className=" active-page  py-3 px-5" href={"/about"}>About</Link>
+        <Link className=" py-3 px-5" href={"/team"}>Team</Link>
         <Link className=" py-3 px-5" href={"/events"}>Events</Link>
       </div>
     </div>
