@@ -143,3 +143,12 @@
   }
 
 
+.sig-section{
+
+    background: url('../public/assets/images/sig-bg.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+.sig-bg{
+    background-image: linear-gradient(to bottom,#e76c37,#D98324);
+}
