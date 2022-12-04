@@ -119,6 +119,18 @@
 									   color-stop(0.86, rgba(124, 45, 18, 0.8)));
 }
 
+.active-page{
+    background-color: #FF9900;
+    /* linear-gradient(#a97102, #9d390e); */
+    @apply rounded-xl text-black font-[500];
+}
+
+.main-navbar{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right,#F53803,#F5D020);
+    border-image-slice: 1;
+}
+
 .swiper-pagination-bullet {
     width: 20px;
     height: 20px;
@@ -129,3 +141,5 @@
     opacity: 1;
     background: rgba(235, 17, 17, 1);
   }
+
+
