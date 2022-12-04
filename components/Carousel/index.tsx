@@ -29,7 +29,7 @@ const renderCarouselSlides = slides.map((slide, index) => {
       <img
         src={slide.image}
         alt="first image"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover rounded-lg"
       />
     </SwiperSlide>
   );
