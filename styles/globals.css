@@ -118,3 +118,35 @@
 									   color-stop(0.72, rgba(124, 45, 18, 0.6)),
 									   color-stop(0.86, rgba(124, 45, 18, 0.8)));
 }
+
+.active-page{
+    background-color: #FF9900;
+    /* linear-gradient(#a97102, #9d390e); */
+    @apply rounded-xl text-black font-[500];
+}
+
+.main-navbar{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right,#F53803,#F5D020);
+    border-image-slice: 1;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: rgb(187, 27, 27);
+    opacity: 1;
+    background: rgba(235, 17, 17, 1);
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    color: rgba(255, 153, 0, 1) !important;
+  }
+
+  .swiper-pagination .swiper-pagination-bullets, .swiper-pagination-bullet {
+    color: rgba(255, 153, 0, 1) !important;
+    background-color: rgba(255, 153, 0, 1) !important;
+  }

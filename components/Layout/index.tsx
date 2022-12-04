@@ -8,9 +8,9 @@ type Props = {
 
 const Layout = (props: Props) => {
   return (
-    <div className="w-full flex min-h-screen flex-col items-center justify-evenely bg-primary-black text-white p-4">
+    <div className="w-full flex flex-col items-center justify-evenely bg-primary-black text-white p-4 gap-10">
       <Navbar />
-      <div>{props.children}</div>
+      <div className="w-full h-full">{props.children}</div>
     </div>
   );
 };
