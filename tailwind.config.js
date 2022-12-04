@@ -26,7 +26,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 
 // primaryOrange: '5px 10px 3px 3px rgba(255, 153, 0, 0.5)',

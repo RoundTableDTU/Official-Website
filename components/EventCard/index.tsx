@@ -1,0 +1,33 @@
+import React from "react";
+
+type Props = {
+  image: string;
+  title: string;
+  location: string;
+  date: string;
+};
+
+const EventCard = (props: Props) => {
+  return (
+    <div className="rounded-md object-cover flex flex-col w-full xl:w-[20vw] text-center gap-2">
+      <div className="object-cover">
+        <img src={props.image} alt="" className="rounded-md w-full" />
+      </div>
+      <div className="flex flex-col gap-4">
+        <h2 className="text-3xl">{props.title}</h2>
+        <div className="flex justify-between">
+          <div className="flex gap-2 justify-center items-center">
+            <img src="/assets/logos/location.svg" className="w-6" />
+            <h2>{props.location}</h2>
+          </div>
+          <div className="flex gap-2 justify-center items-center">
+            <img src="/assets/logos/calender.svg" className="w-8" />
+            <h2>{props.date}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default EventCard;

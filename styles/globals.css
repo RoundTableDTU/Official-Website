@@ -118,3 +118,14 @@
 									   color-stop(0.72, rgba(124, 45, 18, 0.6)),
 									   color-stop(0.86, rgba(124, 45, 18, 0.8)));
 }
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: rgb(187, 27, 27);
+    opacity: 1;
+    background: rgba(235, 17, 17, 1);
+  }
