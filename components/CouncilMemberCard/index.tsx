@@ -11,20 +11,20 @@ type Props = {
 
 const CouncilMemberCard = (props: Props) => {
   return (
-    <div className="flex rounded-xl flex-col items-center">
+    <div className="grid rounded-xl  ">
       <div className="relative group">
         <div className="absolute -inset-0.5 bg-gradient-to-r from-muted-orange to-orange-900 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-        <div className="relative px-7 py-4 text-white bg-black rounded-lg leading-none flex flex-col items-center gap-2">
+        <div className="relative  p-2 md:p-5 text-white bg-black rounded-lg leading-none min-h-full flex flex-col items-center gap-2">
           <Image
             src={props.member.image}
             width={400}
             height={600}
             alt={"council member image"}
-            className="rounded-t-lg w-full"
+            className="rounded-t-lg w-full -"
           />
 
           <h2 className="text-lg font-semibold py-2">{props.member.name}</h2>
-          <h3 className="text-base py-1 font-medium bg-primary-orange text-black rounded-xl px-4 lg:text-lg ">
+          <h3 className="text-base py-1 font-medium w-3/4 text-center bg-primary-orange text-black rounded-xl px-4 lg:text-lg ">
             {props.member.position}
           </h3>
           {/* <p className="text-center text-base p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, cum!</p> */}

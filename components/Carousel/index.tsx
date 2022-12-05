@@ -15,21 +15,21 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const renderCarouselSlides = slides.map((slide, index) => {
   return (
     <SwiperSlide
-      className="text-white flex items-center justify-center relative"
+      className="text-white h-2/3 flex items-center justify-center relative"
       key={index}
     >
-      <div className="absolute left-36 flex flex-col gap-16 z-10 w-1/2">
+      <div className="absolute md:left-36 px-16 md:px-0 flex flex-col gap-8 md:gap-16 z-10 md:w-1/2">
         <div className="flex flex-col gap-4">
-          <h1 className="text-7xl font-bold">{slide.title}</h1>
-          <h1 className="text-5xl font-bold">{slide.mediumTitle}</h1>
+          <h1 className="text-2xl md:text-7xl pt-10 font-bold">{slide.title}</h1>
+          <h1 className="text-2xl md:text-5xl font-bold">{slide.mediumTitle}</h1>
         </div>
-        <h1 className="text-2xl font-light">{slide.text}</h1>
+        <h1 className="text-lg md:text-2xl ">{slide.text}</h1>
       </div>
       <div className="h-full w-full absolute z-[2] bg-[#1f0909]/[0.5]"></div>
       <img
         src={slide.image}
         alt="first image"
-        className="w-full h-full object-cover rounded-lg"
+        className="w-full h-full  object-cover rounded-lg"
       />
     </SwiperSlide>
   );
