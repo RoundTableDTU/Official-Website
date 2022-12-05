@@ -9,6 +9,7 @@ const Navbar = (props: Props) => {
     <div className="w-full px-4 grid grid-col-1 -mt-3  md:flex md:justify-between items-center text-xl md:text-2xl pb-4  md:gap-0 rounded-sm main-navbar">
       <div className="flex justify-center items-center md:flex  ">
         <div>
+          {/* vamsi todo : logo href to home */}
           <Image
             src={"/assets/images/rtlogo.png"}
             width={100}
@@ -17,7 +18,7 @@ const Navbar = (props: Props) => {
             className="w-full h-40"
           />
         </div>
-        <h1 className="text-2xl md:text-3xl underline hidden md:block font-bold">RoundTable</h1>
+        
       </div>
       <div className="w-full md:w-1/3 flex justify-evenly text-base md:text-xl p-4 font-poppins font-normal md:p-0">
         <ActiveLink href="/">Home</ActiveLink>
