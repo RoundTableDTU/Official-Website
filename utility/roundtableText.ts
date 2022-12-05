@@ -38,3 +38,46 @@ export const slides = [
     },
 
   ]
+
+  // about page text
+
+  export const aboutRoundTable = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+  labore illo sit consectetur repellendus enim rerum quas nihil
+  quam, exercitationem dolorum esse provident fugiat dolore vero
+  blanditiis aspernatur maxime deleniti cum nobis adipisci!
+  Reiciendis voluptatem at sint expedita saepe hic impedit debitis
+  mollitia unde autem cupiditate corrupti adipisci, sit nesciunt
+  beatae ullam doloremque culpa cumque. Totam, doloremque, neque
+  ex aperiam aliquid vero, cupiditate eaque ab mollitia a maiores
+  ipsam dolorum.
+  `
+
+  export const sigInfo = {
+    title: `What are SIGs`,
+    heading: `Special Interest Groups.`,
+    text: `We offer a wide range of SIGs in which you get intelligent and hardworking team of mentors who are always there to help you in your journey of skill development and guide you to your ultimate goal.
+    You also get an opportunity to do various projects with your seniors that you can showcase in your CV in your job interviews.`
+  }
+
+  export const sigList = [
+    {
+      title: `Web Development`,
+      image: `/assets/images/sigImages/webdev.png`,
+    },
+    {
+      title: `DSA/CP`,
+      image: `/assets/images/sigImages/webdev.png`,
+    },
+    {
+      title: `AI/ML`,
+      image: `/assets/images/sigImages/webdev.png`,
+    },
+    {
+      title: `Finance`,
+      image: `/assets/images/sigImages/webdev.png`,
+    },
+    {
+      title: `Data Analysis`,
+      image: `/assets/images/sigImages/webdev.png`,
+    },
+  ]
