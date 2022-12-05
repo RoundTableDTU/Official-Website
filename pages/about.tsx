@@ -11,8 +11,12 @@ const About = (props: Props) => {
   return (
     <Layout>
 
-
+    <section>
+    <h2 className="text-7xl pl-5 font-medium">Frequently Asked Questions</h2>
     <Faq/>
+
+    </section>
+    
 
 
 

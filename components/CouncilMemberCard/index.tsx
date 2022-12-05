@@ -18,9 +18,9 @@ const CouncilMemberCard = (props: Props) => {
           <Image
             src={props.member.image}
             width={400}
-            height={400}
+            height={600}
             alt={"council member image"}
-            className="rounded-t-lg w-full h-40"
+            className="rounded-t-lg w-full"
           />
 
           <h2 className="text-lg font-semibold py-2">{props.member.name}</h2>
