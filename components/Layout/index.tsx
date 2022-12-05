@@ -4,13 +4,16 @@ import Navbar from "../Navbar";
 
 type Props = {
   children: React.ReactNode;
+  className?: string;
 };
 
 const Layout = (props: Props) => {
   return (
-    <div className="w-full flex flex-col items-center justify-evenely bg-primary-black text-white p-4 gap-10">
+    <div
+      className={`w-screen flex flex-col items-center bg-primary-black text-white py-4 gap-10`}
+    >
       <Navbar />
-      <div className="w-full h-full">{props.children}</div>
+      <div className={`w-full h-full ${props.className}`}>{props.children}</div>
     </div>
   );
 };

@@ -81,6 +81,7 @@
 
 .shadow-neon-yellow-muted {
     box-shadow:
+
         /* White glow */
         0 0 7px rgb(99, 99, 99),
         0 0 10px rgb(99, 99, 99),
@@ -114,6 +115,7 @@
             color-stop(0.44, rgba(124, 45, 18, 0.3)),
             color-stop(0.72, rgba(124, 45, 18, 0.6)),
             color-stop(0.86, rgba(124, 45, 18, 0.8)));
+
 }
 
 @layer base {
@@ -161,8 +163,10 @@
     background-size: cover;
 }
 
+
 .sig-bg {
     background-image: linear-gradient(to bottom, #e76c37, #D98324);
 }
 
 /* footer */
+

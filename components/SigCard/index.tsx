@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
+type Props = {
+  sigName:string;
+};
 
 const SigCard = (props: Props) => {
   return (
