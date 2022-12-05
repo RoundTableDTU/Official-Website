@@ -10,7 +10,33 @@ type Props = {};
 const About = (props: Props) => {
   return (
     <Layout>
-      <FaqAccordian className=" w-1/2 m-auto rounded-t-lg flex flex-col gap-2 transition-all box-border border-[1px] border-white" />
+      <div className="flex w-4/5 gap-10 bg-green-300 justify-between m-auto">
+        <div className="flex flex-col gap-8 w-1/2">
+          <div className="flex flex-col text-6xl gap-2 font-bold">
+            <h1>What are</h1>
+            <h1>SIGs</h1>
+          </div>
+          <div>
+            <p className="text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eum
+              aperiam fuga minus quas ipsam voluptate modi vel velit, est
+              accusamus eveniet repudiandae aspernatur nesciunt quis
+              repellendus, cupiditate atque quam voluptatibus quasi nulla!
+            </p>
+          </div>
+        </div>
+        <div className="">
+          <img
+            src="assets/images/sig.jpeg"
+            alt=""
+            className="aspect-square h-96 rounded-tl-[5rem] rounded-bl-xl"
+          />
+        </div>
+      </div>
+      <div className="w-full">
+        <h1>FAQs</h1>
+        <FaqAccordian className="w-1/2 m-auto rounded-t-lg flex flex-col gap-2 transition-all box-border border-[1px] border-white" />
+      </div>
       {/* overflow hatana hai, horizontal scrollbar hatana hai */}
       {/* img extend hori usse fix krna hai */}
       {/* <div className="absolute mr-4 px-36  pt-14  z-10 ">
