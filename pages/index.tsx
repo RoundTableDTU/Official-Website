@@ -74,7 +74,7 @@ const Home: NextPage = () => {
   return (
     <div className="w-full">
       <Layout>
-        <div className="w-full h-screen flex flex-col gap-10 justify-center items-center">
+        <div className="w-full md:h-screen flex flex-col gap-10 justify-center items-center">
           <Carousel />
         </div>
         <div className="flex flex-col md:gap-10 gap-2 md:px-24 w-full">

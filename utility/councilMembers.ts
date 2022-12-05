@@ -44,7 +44,7 @@ export const councilMembers = {
         linkedin: "https://www.linkedin.com/in/rishabh-gupta-7b1b3b1b3/",
       },
       {
-        name: "Divyam",
+        name: "Hritik Solanki",
         position: "Treasurer",
         image: "/assets/images/team/senior/Hritik Solanki.jpg",
         linkedin: "https://www.linkedin.com/in/rishabh-gupta-7b1b3b1b3/",
