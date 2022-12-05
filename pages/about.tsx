@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import SigCard from "../components/SigCard";
 import { aboutRoundTable, sigInfo, sigList } from "../utility/roundtableText";
 import Layout from "../components/Layout";
-import Faq from "../components/Faq";
 import FaqAccordian from "../components/FaqAccordian";
 
 type Props = {};
