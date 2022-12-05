@@ -1,9 +1,12 @@
 import React from "react";
 import { useRouter } from "next/router";
 
-type Props = {};
+type Props = {
+  children: React.ReactNode;
+  href: string;
+};
 
-function ActiveLink({ children, href }) {
+function ActiveLink({ children, href }: Props) {
   const router = useRouter();
   const style = {
     textDecoration: "none",
