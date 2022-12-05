@@ -8,20 +8,28 @@ import FaqAccordian from "../components/FaqAccordian";
 type Props = {};
 
 const About = (props: Props) => {
+  const renderSigCardsd = sigList.map((sig, index) => {
+    return <SigCard sig={sig} key={index} />;
+  });
+
   return (
     <Layout className="flex flex-col gap-16">
       <div>
-        <div className="flex w-4/5 gap-10 justify-center m-auto">
+        <div className="flex gap-20 justify-center m-auto py-12">
           <div className="flex flex-col gap-12 w-1/2">
-            <div className="flex flex-col text-6xl gap-4 font-bold text-center">
-              <h1 className="uppercase">About Roundtable</h1>
+            <div className="flex flex-col text-7xl gap-4 font-bold">
+              <h1 className="uppercase">
+                About <span className="text-primary-orange">Roundtable</span>
+              </h1>
               <h1 className="text-5xl">The skill development society</h1>
             </div>
             <div>
-              <p className="text-lg leading-9">{aboutRoundTable}</p>
+              <p className="text-2xl leading-9 text-justify">
+                {aboutRoundTable}
+              </p>
             </div>
           </div>
-          <div className="relative top-10 right-4">
+          <div className="relative">
             <img
               src="assets/images/sig.jpeg"
               alt=""
@@ -31,27 +39,27 @@ const About = (props: Props) => {
         </div>
       </div>
       <div className="relative">
-        <div className="flex flex-col justify-center items-center absolute z-10 bg-green-300">
-          <div className="flex justify-start items-start text-left">
-            <div className="w-1/2">
+        <div className="flex flex-col justify-center items-center absolute z-10 p-2 top-36 gap-36">
+          <div className="flex gap-10 justify-evenly">
+            <div className="flex flex-col justify-center gap-4">
               <h1 className="text-3xl text-left">{sigInfo.heading}</h1>
-              <h1 className="text-6xl font-bold">{sigInfo.title}</h1>
+              <h1 className="text-7xl font-bold">{sigInfo.title}</h1>
             </div>
-            <div>line</div>
-            <h1>{sigInfo.text}</h1>
+            <div className="w-1 bg-primary-orange"></div>
+            <h1 className="w-1/2 text-3xl leading-9">{sigInfo.text}</h1>
           </div>
-          <div></div>
+          <div className="flex gap-10">{renderSigCardsd}</div>
         </div>
-        <div className="h-full w-full absolute z-[2] bg-[#1f0909]/[0.5]"></div>
+        <div className="h-full w-full absolute z-[2] bg-[#1f0909]/[0.72]"></div>
         <img
           src="assets/images/sig_bg_2.jpg"
           alt=""
-          className="w-full h-[100vh]"
+          className="w-full h-[90vh]"
         />
       </div>
-      <div className="w-full">
-        <h1>FAQs</h1>
-        <FaqAccordian className="w-1/2 m-auto rounded-t-lg flex flex-col gap-2 transition-all box-border border-[1px] border-white" />
+      <div className="w-full flex flex-col justify-center gap-16">
+        <h1 className="text-7xl m-auto font-semibold">FAQs</h1>
+        <FaqAccordian className="w-full m-auto rounded-t-lg grid grid-cols-2 px-12 transition-all box-border gap-x-10 gap-y-8" />
       </div>
     </Layout>
   );

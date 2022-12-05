@@ -1,13 +1,26 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
+type Props = {
+  sig: {
+    title: string;
+    image: string;
+  };
+};
 
 const SigCard = (props: Props) => {
   return (
-    <div className="flex rounded-xl sig-bg flex-col items-center p-4 ">
-      <img src='./assets/images/website-icon.png' alt="sig-pic" className="rounded-full px-3  pt-3" />
-      <h3 className="text-2xl font-medium py-5">{props.sigName}</h3>
+    <div className="flex rounded-xl  flex-col items-center py-4 px-10 bg-white">
+      <div className="w-44 rounded-full bg-primary-orange flex items-center justify-center">
+        <img
+          src={props.sig.image}
+          alt="sig-pic"
+          className="h-full aspect-square p-10"
+        />
+      </div>
+      <h3 className="text-2xl font-medium py-5 text-primary-black">
+        {props.sig.title}
+      </h3>
     </div>
   );
 };
