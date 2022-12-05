@@ -9,16 +9,21 @@ type Props = {
 
 const Layout = (props: Props) => {
   return (
+    <>
     <div
       className={`w-full flex flex-col items-center bg-primary-black text-white py-4 gap-10`}
     >
       <Navbar />
       <div className={`w-full h-full ${props.className}`}>{props.children}</div>
+      
     </div>
+    <Footer/>
+    </>
+    
   );
 };
 
 export default Layout;
-{
-  /* <Footer /> */
-}
+
+  
+
