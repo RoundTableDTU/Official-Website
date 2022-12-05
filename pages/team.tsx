@@ -51,7 +51,7 @@ const Team = (props: Props) => {
         <div className="flex gap-6 items-center justify-center">
           {councilToggleButtons}
         </div>
-        <div className="max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-16 md:gap-x-8 md:gap-y-10 lg:gap-10 px-3">
+        <div className="max-w-screen-xl grid grid-cols-2 gap-x-7 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-16 md:gap-x-8 md:gap-y-10 lg:gap-10 px-3">
           {councilInfo()}
         </div>
       </div>
