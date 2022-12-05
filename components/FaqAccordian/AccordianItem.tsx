@@ -14,7 +14,7 @@ const AccordianItem = (props: Props) => {
       className={`rounded-lg w-full cursor-pointer flex flex-col gap-1`}
       onClick={() => seTtoggleAccordian(!toggleAccordian)}
     >
-      <div className="flex justify-between gap-8 w-full items-center py-4 border-t-[1px] border-white px-8">
+      <div className="flex justify-between gap-8 w-full items-center py-4 rounded-t-xl border-[1px] border-white px-8">
         <div className="flex gap-8 items-center">
           <button className="rounded-full w-8 aspect-square bg-primary-orange text-primary-black text-lg font-bold">
             ?
@@ -44,7 +44,7 @@ const AccordianItem = (props: Props) => {
           toggleAccordian ? `block` : `hidden`
         } border-[1px] border-primary-orange rounded-sm p-6 transition-all`}
       >
-        <p className="text-lg">{props.item.content}</p>
+        <p className="text-2xl">{props.item.content}</p>
       </div>
     </div>
   );
