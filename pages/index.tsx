@@ -4,7 +4,6 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
-import CarouselNew from "../components/CarouselNew";
 import { homePageAboutText } from "../utility/roundtableText";
 import AboutCards from "../components/AboutCards";
 import EventCard from "../components/EventCard";
@@ -73,7 +72,7 @@ const renderRecentEvents = recentEvents.map((event, index) => {
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className="w-full">
       <Layout>
         <div className="w-full h-screen flex flex-col gap-10 justify-center items-center">
           <Carousel />
@@ -83,7 +82,9 @@ const Home: NextPage = () => {
             <h1 className="text-7xl font-bold text-center text-white rounded-md px-10 py-4">
               About Roundtable
             </h1>
-            <p className="text-2xl px-24 font-poppins relative">{homePageAboutText}</p>
+            <p className="text-2xl px-24 font-poppins relative">
+              {homePageAboutText}
+            </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 md:gap-x-4 md:gap-y-12 lg:gap-8 px-3 m-auto py-10 ">
             {renderAboutCards}
@@ -101,7 +102,7 @@ const Home: NextPage = () => {
         </div>
       </Layout>
       <Footer />
-    </>
+    </div>
   );
 };
 
