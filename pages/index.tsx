@@ -96,7 +96,7 @@ const Home: NextPage = () => {
               Recent <span className="text-primary-orange">Events</span>
             </h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 md:gap-x-4 md:gap-y-12 lg:gap-8 xl:gap-24 px-3 mb-20 m-auto p-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 md:gap-x-4 md:gap-y-12 lg:gap-8 xl:gap-24 px-3 m-auto p-10">
 
               {renderRecentEvents}
             </div>

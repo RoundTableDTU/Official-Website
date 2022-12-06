@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ActiveLink from "./ActiveLink";
+import Link from "next/link"
 
 type Props = {};
 
@@ -10,13 +11,15 @@ const Navbar = (props: Props) => {
       <div className="flex justify-center items-center md:flex  ">
         <div>
           {/* vamsi todo : logo href to home */}
+          <Link href={"/"}>
           <Image
-            src={"/assets/images/rtlogo.png"}
+            src={"/assets/images/rtlogo.png"}            
             width={100}
             height={100}
             alt="round table logo png"
-            className="w-full h-40"
+            className="w-full h-32 py-2"
           />
+          </Link>
         </div>
         
       </div>

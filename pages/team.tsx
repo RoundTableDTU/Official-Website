@@ -6,7 +6,7 @@ type Props = {};
 
 const Team = (props: Props) => {
   const [councilMembersToggle, setCouncilMembesrToggle] =
-    useState("seniorCouncil");
+    useState("juniorCouncil");
 
   const councilToggleButtons = (
     <>
@@ -15,7 +15,7 @@ const Team = (props: Props) => {
           councilMembersToggle === "seniorCouncil"
             ? `border-primary-orange border-4 `
             : `border-muted-orange border-2`
-        }  rounded-md px-6 py-4 text-xl`}
+        }  rounded-md text-base px-3 md:px-6 py-4 md:text-xl`}
         onClick={() => setCouncilMembesrToggle("seniorCouncil")}
       >
         Senior Council
@@ -25,7 +25,7 @@ const Team = (props: Props) => {
           councilMembersToggle === "juniorCouncil"
             ? `border-primary-orange border-4 `
             : `border-muted-orange border-2`
-        }  rounded-md px-6 py-4 text-xl`}
+        }  rounded-md text-base px-3 md:px-6 py-4 md:text-xl`}
         onClick={() => setCouncilMembesrToggle("juniorCouncil")}
       >
         Junior Council
