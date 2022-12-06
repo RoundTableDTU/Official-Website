@@ -142,11 +142,53 @@ These include sessions on resumé building, case study analysis and finance and 
     },
   ]
 
+  //event page data
+
   export const eventData = [
     {
-      title: `Webinar`,
+      title: `Freelancing Mastery`,
       image: `/assets/images/events/`,
-      date: `21st April 2021`,
-      
-    }
+      date: `25 April, 2021`,
+      speakers: [`Shivay Madan`, `Divij Rakhra`, `Prakhar Mehta`],
+      description: `Freelancing Mastery was a session to help students gain the knowledge about freelancing and how they can earn some money during they studies. The speakers shared their experiences and guidance with the attendees.`,
+      location: `Online`,  
+    },
+    {
+      title: `Vox Pop`,
+      image: `/assets/images/events/`,
+      date: `19 June, 2021`,
+      speakers: [`in collaboration with AIQA`, `queer DTU`],
+      description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
+      location: `Online`,         
+    },
+  ]
+
+  //count card data
+
+  export const countCardData = [
+    {
+      title: `Participants`,
+      count: 100,
+      image: `/assets/logos/participants.svg`,
+    },
+    {
+      title: `Speakers`,
+      count: 20,
+      image: `/assets/logos/speaker.svg`,
+    },
+    {
+      title: `Sponsers`,
+      count: 10,
+      image: `/assets/logos/sponser.svg`,
+    },
+    {
+      title: `Sponsers`,
+      count: 10,
+      image: `/assets/logos/sponser.svg`,
+    },
+      {
+        title: `Sponsers`,
+        count: 10,
+        image: `/assets/logos/sponser.svg`,
+      },
   ]
