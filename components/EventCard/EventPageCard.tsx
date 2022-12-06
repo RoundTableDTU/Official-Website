@@ -1,13 +1,8 @@
 import React from "react";
 
-type Props = {
-  image: string;
-  title: string;
-  location: string;
-  date: string;
-};
+type Props = {};
 
-const EventCard = (props: Props) => {
+const EventPageCard = (props: Props) => {
   return (
     <div className="rounded-md object-cover flex flex-col w-full xl:w-[20vw] text-center gap-2">
       <div className="object-cover">
@@ -42,4 +37,4 @@ const EventCard = (props: Props) => {
   );
 };
 
-export default EventCard;
+export default EventPageCard;

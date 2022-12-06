@@ -138,3 +138,12 @@ export const slides = [
       image: `/assets/sigs/data.svg`,
     },
   ]
+
+  export const eventData = [
+    {
+      title: `Webinar`,
+      image: `/assets/images/events/`,
+      date: `21st April 2021`,
+      
+    }
+  ]
