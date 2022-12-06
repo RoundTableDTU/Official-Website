@@ -26,8 +26,8 @@ const Navbar = (props: Props) => {
       <div className="w-full md:w-1/3 flex justify-evenly text-base md:text-xl p-4 font-poppins font-normal md:p-0">
         <ActiveLink href="/">Home</ActiveLink>
         <ActiveLink href={"/about"}>About</ActiveLink>
-        <ActiveLink href={"/team"}>Team</ActiveLink>
         <ActiveLink href={"/events"}>Events</ActiveLink>
+        <ActiveLink href={"/team"}>Team</ActiveLink>
       </div>
     </div>
   );
