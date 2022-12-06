@@ -23,8 +23,8 @@ const CouncilMemberCard = (props: Props) => {
             className="rounded-t-lg w-full -"
           />
 
-          <h2 className="text-lg font-semibold py-2">{props.member.name}</h2>
-          <h3 className="text-base py-1 font-medium w-3/4 text-center bg-primary-orange text-black rounded-xl px-4 lg:text-lg ">
+          <h2 className="text-lg font-semibold py-2 text-center">{props.member.name}</h2>
+          <h3 className="text-base py-1 font-medium w-4/5 text-center bg-primary-orange text-black rounded-xl px-4 lg:text-lg ">
             {props.member.position}
           </h3>
           {/* <p className="text-center text-base p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, cum!</p> */}
