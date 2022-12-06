@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 
 type Props = {
   item: {
@@ -8,18 +8,21 @@ type Props = {
 };
 
 const AccordianItem = (props: Props) => {
+
   const [toggleAccordian, seTtoggleAccordian] = useState(false);
   return (
     <div
       className={`rounded-lg w-full cursor-pointer flex flex-col gap-1`}
       onClick={() => seTtoggleAccordian(!toggleAccordian)}
     >
-      <div className="flex justify-between gap-8 w-full items-center py-4 rounded-t-xl border-[1px] border-white px-8">
-        <div className="flex gap-8 items-center">
-          <button className="rounded-full w-8 aspect-square bg-primary-orange text-primary-black text-lg font-bold">
+      <div className={`flex justify-between  w-full items-center py-4 rounded-t-xl  border-white  px-4 duration-500 ease-in-out shadow-muted-orange ${
+          toggleAccordian ? `shadow-inner` : `shadow-md `
+        }`}>
+        <div className="flex gap-2 items-center">
+          {/* <button className="rounded-full w-8 aspect-square bg-primary-orange text-primary-black text-lg font-bold">
             ?
-          </button>
-          <h1 className="text-3xl">{props.item.title}</h1>
+          </button> */}
+          <h1 className=" text-lg md:text-xl py-2">{props.item.title}</h1>
         </div>
         <div>
           <svg
@@ -42,9 +45,9 @@ const AccordianItem = (props: Props) => {
       <div
         className={`${
           toggleAccordian ? `block` : `hidden`
-        } border-[1px] border-primary-orange rounded-sm p-6 transition-all`}
+        }   shadow-muted-orange duration-500 shadow-md rounded-sm p-6 pt-0 transition-all`}
       >
-        <p className="text-2xl">{props.item.content}</p>
+        <p className="text-base md:text-lg">{props.item.content}</p>
       </div>
     </div>
   );
