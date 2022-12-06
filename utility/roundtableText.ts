@@ -20,7 +20,7 @@ export const slides = [
       text: `We organize special sessions conducted by people who are industry leaders These are interactive sessions that involve career guidance, current trends & insights into their fields.`,
     },
     {
-      image: `/assets/images/carouselImages/a1.jpeg`,
+      image: `/assets/images/sig.jpeg`,
       title: `ROUNDTABLE.`,
       mediumTitle: `WORKSHOPS`,
       text: `    We organise Technical and Non-Technical workshops for our members and other students.
@@ -106,15 +106,10 @@ These include sessions on resumé building, case study analysis and finance and 
 
   // about page text
 
-  export const aboutRoundTable = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-  labore illo sit consectetur repellendus enim rerum quas nihil
-  quam, exercitationem dolorum esse provident fugiat dolore vero
-  blanditiis aspernatur maxime deleniti cum nobis adipisci!
-  Reiciendis voluptatem at sint expedita saepe hic impedit debitis
-  mollitia unde autem cupiditate corrupti adipisci, sit nesciunt
-  beatae ullam doloremque culpa cumque. Totam, doloremque, neque
-  ex aperiam aliquid vero, cupiditate eaque ab mollitia a maiores
-  ipsam dolorum.
+  export const aboutRoundTable = `RoundTable DTU provides its members a platform to develop a holistic personality and gain industrial skills that come in handy in both the Technical and Non-Technical sectors.
+  You may want to get into hardcore technical side or in a more analytical and Non-Technical side of things.
+  We at Round Table DTU are here to make sure that you develop the right skillset while following the correct roadmap to your dream placement. 
+  
   `
 
   export const sigInfo = {
