@@ -11,9 +11,7 @@ const events = (props: Props) => {
         <h1 className="text-7xl text-white font-bold py-4 px-8 bg-primary-orange">
           Recent Events
         </h1>
-        <div className="w-full">
-          <EventCard />
-        </div>
+        <div className="w-full"></div>
       </div>
     </Layout>
   );
