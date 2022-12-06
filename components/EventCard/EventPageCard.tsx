@@ -1,6 +1,11 @@
 import React from "react";
 
-type Props = {};
+type Props = {
+  image : string;
+  title:string;
+  location : string;
+  date: string;
+};
 
 const EventPageCard = (props: Props) => {
   return (
