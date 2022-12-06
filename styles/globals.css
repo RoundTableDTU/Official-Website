@@ -133,6 +133,12 @@
     border-image-slice: 1;
 }
 
+.main-border {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #F53803, #F5D020);
+    border-image-slice: 1;
+}
+
 
 
 .swiper-pagination-bullet {
