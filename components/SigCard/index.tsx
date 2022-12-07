@@ -10,15 +10,15 @@ type Props = {
 
 const SigCard = (props: Props) => {
   return (
-    <div className="flex rounded-xl  flex-col items-center py-4 px-10 bg-white">
-      <div className="w-44 rounded-full bg-primary-orange flex items-center justify-center">
+    <div className="flex rounded-xl  flex-col items-center md:py-4 md:first-letter:px-10 px-4  pt-3 bg-white/[0.8]">
+      <div className="w-32 md:w-36 rounded-full bg-primary-orange flex items-center justify-center">
         <img
           src={props.sig.image}
           alt="sig-pic"
-          className="h-full aspect-square p-10"
+          className="md:h-full aspect-square p-4 md:p-10"
         />
       </div>
-      <h3 className="text-2xl font-medium py-5 text-primary-black">
+      <h3 className="text-base md:text-2xl py-3 font-medium md:py-5 text-primary-black">
         {props.sig.title}
       </h3>
     </div>

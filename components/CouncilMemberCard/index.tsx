@@ -1,11 +1,14 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link"
 
 type Props = {
   member: {
     name: string;
     position: string;
     image: string;
+    linkedin : string;
+    instagram : string;
   };
 };
 
@@ -30,15 +33,17 @@ const CouncilMemberCard = (props: Props) => {
           {/* <p className="text-center text-base p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, cum!</p> */}
           <div className="grid grid-cols-2 gap-x-3 mt-2">
             <button className=" rounded-full w-14 h-14 bg-primary-black  flex items-center justify-center">
+            <Link href={props.member.linkedin}>          
               <Image
                 src={"/assets/logos/linkedinLogoOrangeGradient.svg"}
                 width={70}
                 height={70}
                 alt={"linkedin logo"}
                 className="text-white"
-              />
+              /></Link>
             </button>
             <button className=" rounded-full w-14 h-14 bg-primary-black  flex items-center justify-center">
+            <Link href={props.member.instagram}>    
               <Image
                 src={"/assets/logos/instagramLogoOrangeGradient.svg"}
                 width={70}
@@ -46,6 +51,7 @@ const CouncilMemberCard = (props: Props) => {
                 alt={"linkedin logo"}
                 className="text-white"
               />
+              </Link>
             </button>
           </div>
         </div>

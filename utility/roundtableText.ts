@@ -121,7 +121,7 @@ These include sessions on resumé building, case study analysis and finance and 
 
   export const sigList = [
     {
-      title: `Web Development`,
+      title: `Development`,
       image: `/assets/sigs/webd.svg`,
     },
     {

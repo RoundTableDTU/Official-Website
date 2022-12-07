@@ -174,5 +174,15 @@
     background-image: linear-gradient(to bottom, #e76c37, #D98324);
 }
 
+.sig-bg-aboutus{
+background: linear-gradient(60deg,rgba(10,7,2,1) 30%, #e2561f70 50%,  rgba(10,7,2,1) 70%);
+}
+.accordion-dropdown{
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-image: linear-gradient(90deg, #ba6016 0%,rgba(255, 153, 0, 0.3) 50%, #834b1b 100%);
+    border-image-slice: 1;
+}
 /* footer */
 

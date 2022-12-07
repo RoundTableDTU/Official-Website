@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link"
 
 
 type Props = {};
@@ -30,34 +31,36 @@ const Footer = (props: Props) => {
             <h1 className="font-poppins font-bold text-xl md:text-3xl md:mb-4">Quick Access</h1>
 
             <div className="md:text-xl">
-            <span className="mr-2 "><a href="#Events">Home</a></span>
-            <span className="m-2 "><a href="#Events">About</a></span>
-            <span className="m-2 "><a href="#Events">Events</a></span>
-            <span className="m-2 "><a href="#Events">Team</a></span>
+            <span className="mr-2 "><Link href={'/'}>Home</Link></span>
+            <span className="m-2 "><Link href={'/about'}>About</Link></span>
+            <span className="m-2 "><Link href={'/events'}>Events</Link></span>
+            <span className="m-2 "><Link href={'/team'}>Team</Link></span>
             </div>
           </div>
           <div className="px-10 py-4 md:py-0">
             <h1 className="font-poppins font-bold text-xl md:text-3xl">Follow Us</h1>
             <div className="flex flex-row gap-4 py-3 font-semibold">
-
+            <Link href={'https://www.instagram.com/roundtable_dtu/'}>           
             <img
                 src="/assets/logos/insta.png"
                 
                 alt="insta logo"
                 className="h-10 md:h-12 text-white cursor-pointer"
-              />
+              /></Link>
+            <Link href={'https://www.linkedin.com/company/round-table-dtu/'}>
             <img
                 src="/assets/logos/ln.png"
                 
                 alt="linkedin logo"
                 className="h-10 md:h-12 text-white cursor-pointer"
-              />
+              /></Link>
+            <Link href={'https://www.facebook.com/roundtabledtu/'}>
             <img
                 src="/assets/logos/fb.png"
                 
                 alt="facebook logo"
                 className="h-10 md:h-12 text-white cursor-pointer"
-              />
+              /></Link>
 
             </div>
 
@@ -67,7 +70,7 @@ const Footer = (props: Props) => {
           <div className="px-10">
             
           <h1 className="font-poppins font-bold text-xl  md:text-3xl">Contact Us</h1>
-            <h4 className="py-1 md:text-xl">Saksham Sharma (President) <span className="block">9013844884</span></h4>
+            <h4 className="py-1 md:text-xl">Saksham Checker (President) <span className="block">9013844884</span></h4>
             <h4 className="py-1 md:text-xl">Saksham Gupta (Vice President) <span className="block">9643717655</span></h4>
           </div>
         </div>
