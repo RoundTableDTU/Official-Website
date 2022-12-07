@@ -144,47 +144,100 @@ These include sessions on resumé building, case study analysis and finance and 
 
   //event page data
 
+  
   export const eventData = [
     {
       title: `Freelancing Mastery`,
-      image: `/assets/images/events/`,
+      image: `/assets/images/events/1.png`,
       date: `25 April, 2021`,
-      speakers: [`Shivay Madan`, `Divij Rakhra`, `Prakhar Mehta`],
+      speakers: [`Shivay Madan, Divij Rakhra, Prakhar Mehta`],
       description: `Freelancing Mastery was a session to help students gain the knowledge about freelancing and how they can earn some money during they studies. The speakers shared their experiences and guidance with the attendees.`,
       location: `Online`,  
     },
     {
       title: `Vox Pop`,
-      image: `/assets/images/events/`,
+      image: `/assets/images/events/2.png`,
       date: `19 June, 2021`,
-      speakers: [`in collaboration with AIQA`, `queer DTU`],
+      speakers: [`in collaboration with AIQA, queer DTU`],
       description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
       location: `Online`,         
     },
     {
-      title: `Vox Pop`,
-      image: `/assets/images/events/`,
-      date: `19 June, 2021`,
-      speakers: [`in collaboration with AIQA`, `queer DTU`],
-      description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
+      title: `Combat Covid Challenge`,
+      image: `/assets/images/events/3.png`,
+      date: `3-4 July, 2021`,
+      speakers: [`Roundtable DTU`],
+      description: `Combat Covid Challenge was quiz event to test knowledge of covid and ways to fight with it during the tough times. It also had some amazing cash rewards for the winners.` ,
       location: `Online`,         
     },
     {
-      title: `Vox Pop`,
-      image: `/assets/images/events/`,
-      date: `19 June, 2021`,
-      speakers: [`in collaboration with AIQA`, `queer DTU`],
-      description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
+      title: `Pathway to Consulting`,
+      image: `/assets/images/events/4.png`,
+      date: `14 August, 2021`,
+      speakers: [`Priyank Ahuja`],
+      description: `Pathway to Consulting was a webinar for students to help them gain the knowledge about consulting and how to make a career out of it. The speaker shared some valuable insights with the attendees.`,
       location: `Online`,        
     },
+
     {
-      title: `Vox Pop`,
-      image: `/assets/images/events/`,
-      date: `19 June, 2021`,
-      speakers: [`in collaboration with AIQA`, `queer DTU`],
-      description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
+      title: `Chamber of Codes`,
+      image: `/assets/images/events/5.png`,
+      date: `24 Sept, 2021`,
+      speakers: [`RoundTable DTU, in collaboration with CodeChef NSUT`],
+      description:` Chamber of Codes of was a coding contest to give students a feel of what a real interview feels like for their dream coding jobs. It also had some amazing cash and voucher rewards for attendees.`,
       location: `Online`,        
     },
+
+
+    {
+      title: `Hack-N-Slash`,
+      image: `/assets/images/events/7.png`,
+      date: `17 October, 2021`,
+      speakers: [`Sanchay Singh`],
+      description:` Kickstart to ML was a Webinar where the chief speaker shared his knowledge and experiences in the field of ML. This webinar had all what is required to know how to make a career in this field`,
+      location: `Online`,        
+    },
+  {
+      title: `Biz-Plan`,
+      image: `/assets/images/events/8.png`,
+      date: `November , 2021`,
+      speakers: [`Roundtable DTU`],
+      description: `It was an extravagant and exciting competition revolving around Business. For the preliminary round, there was  a quiz on Dare2compete. Then the selected top 50 got the chance to pitch their business to the jury.`,      location: `Online`,        
+    },
+{
+      title: `Profile Building for IIM’s`,
+      image: `/assets/images/events/9.png`,
+      date: `20 Nov, 2021`,
+      speakers: [`Shabnam Saini, IMS Delhi`],
+      description: `Webinar was on 'Profile building for IIMs & Other Top B-schools'. In this webinar our Chief Mentor, Ms. Shabnam Sahni shared some insights on the art of building a stellar profile.`,
+      location:`Online`,        
+    },
+
+{
+      title: `Aurora` ,
+      image: `/assets/images/events/10.png`,
+      date: `11-13 March, 2022`,
+      speakers: [`Roundtable DTU`],
+      description: `Aurora was a 3 day Tech Fest organized by RoundTable which had some amazing events like- Capture the Flag, Startup Plan, Competetive Coding, Case Study, Hackathon and Buisness Bidding.It had some amazing cash and voucher rewards for the winners.`,
+      location: `Online`,        
+    },
+{
+      title: `Invictus` ,
+      image: `/assets/images/events/11.png`,
+      date: `22-23 April, 2022`,
+      speakers: [`Roundtable DTU`],
+      description: `In this fest 2 events were organized by roundtable one was pictionary and other was cyber over the wire which was related to ethical hacking. Both the events had cash prizes and voucher rewards for winners.`,
+      location: `DTU`,        
+    },
+{
+      title: `Cracking Finance Companies` ,
+      image: `/assets/images/events/12.png`,
+      date: `20 Aug, 2022`,
+      speakers: [`Achintay Goyal`],
+      description: `In this session the speaker shared how he got into blackrock and how you can crack companies like blackrock and other finance based companies.`,
+      location: `DTU`,        
+    }
+
   ]
 
   //count card data

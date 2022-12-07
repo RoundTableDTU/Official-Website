@@ -39,12 +39,12 @@ const EventPageCard = (props: Props) => {
             <h2>{props.event.date}</h2>
           </div>
         </div>
-        <div className="flex flex-col  bg-muted-orange px-4 py-2 mb-5 rounded-lg w-full m-auto">
+        <div className="flex flex-col  bg-muted-orange px-4 md:px-1 py-2 mb-5 rounded-lg w-full m-auto">
           <h2 className="text-xl font-semibold">{props.event.title}</h2>
         </div>
         <div className="object-cover w-auto">
           <img
-            src={props.event.image + `${props.nonce}.png`}
+            src={props.event.image}
             alt=""
             className="rounded-md aspect-square w-full"
           />
@@ -54,7 +54,7 @@ const EventPageCard = (props: Props) => {
             Speakers:
           </span>
           {props.event.speakers.map((speaker, index) => {
-            return <span key={index}> {speaker}, </span>;
+            return <span key={index}> {speaker} </span>;
           })}
         </div>
       </div>
