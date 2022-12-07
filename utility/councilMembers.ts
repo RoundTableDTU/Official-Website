@@ -59,13 +59,7 @@ export const councilMembers = {
       },
     ],
     'juniorCouncil': [
-      {
-        name: "Anuj Singh",
-        position: "Corporate",
-        image: "/assets/images/team/junior/Anuj Singh.jpg",
-        linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
-        instagram: "https://www.instagram.com/anujsingh.22/"
-      },
+     
       {
         name: "Chaitanya",
         position: "Tech",
@@ -80,12 +74,13 @@ export const councilMembers = {
         linkedin: "https://www.linkedin.com/in/vishu-bansal-30385a20b/",
         instagram: "https://www.instagram.com/vbstellar/"
       },
+      
       {
-        name: "Raj Devanshu",
-        position: "Publicity",
-        image: "/assets/images/team/junior/Raj Devanshu.jpg",
-        linkedin: "https://www.linkedin.com/in/raj-devanshu-1a939a230/",
-        instagram: "https://www.instagram.com/sono_io_raj/"
+        name: "Vaibhav",
+        position: "Non Tech ",
+        image: "/assets/images/team/junior/Vaibhav Pratap.jpg",
+        linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
+        instagram: "https://www.instagram.com/vaibh.ps__/"
       },
       {
         name: "Chiranjeevi",
@@ -94,6 +89,24 @@ export const councilMembers = {
         linkedin: "https://www.linkedin.com/in/chiranjeevi-choudhary-10294a234/",
         instagram: "https://www.instagram.com/"
       },
+      
+      
+      {
+        name: "Raj Devanshu",
+        position: "Publicity",
+        image: "/assets/images/team/junior/Raj Devanshu.jpg",
+        linkedin: "https://www.linkedin.com/in/raj-devanshu-1a939a230/",
+        instagram: "https://www.instagram.com/sono_io_raj/"
+      },
+
+      {
+        name: "Shubh Yadav",
+        position: "Publicity",
+        image: "/assets/images/team/junior/Shubh Yadav.jpg",
+        linkedin: "https://www.linkedin.com/in/shubhyadav27/",
+        instagram: "https://www.instagram.com/shubh.ydvv/"
+      },
+      
       {
         name: "Hemang Krish",
         position: "Design",
@@ -102,18 +115,47 @@ export const councilMembers = {
         instagram: "https://www.instagram.com/hk_being_duke/"
       },
       {
+        name: "Teeksha Harish",
+        position: "Design",
+        image: "/assets/images/team/junior/Teeksha Harish.jpg",
+        linkedin: "https://www.linkedin.com/in/teeksha-harish-5895a0234/",
+        instagram: "https://www.instagram.com/totodilestaraptor/"
+      },
+      {
+        name: "Shwetab",
+        position: "Operations",
+        image: "/assets/images/team/junior/Shwetab.jpg",
+        linkedin: "https://www.linkedin.com/in/shwetab-shandilya-4a7b56230/",
+        instagram: "https://www.instagram.com/shwetab2r/"
+      },
+      {
         name: "Muskan",
         position: "Operations",
         image: "/assets/images/team/junior/Muskan.jpg",
         linkedin: "https://www.linkedin.com/in/",
         instagram: "https://www.instagram.com/_muskan_2096/"
       },
+      
       {
         name: "Rishab Goyal",
         position: "Corporate",
         image: "/assets/images/team/junior/Rishab Goyal.jpg",
         linkedin: "https://www.linkedin.com/in/rishabh-goyal-6b7a1b201/?originalSubdomain=in",
         instagram: "https://www.instagram.com/rishabh_goyaal/"
+      },
+      {
+        name: "Anuj Singh",
+        position: "Corporate",
+        image: "/assets/images/team/junior/Anuj Singh.jpg",
+        linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
+        instagram: "https://www.instagram.com/anujsingh.22/"
+      },
+      {
+        name: "Ashish Chotani",
+        position: "Corporate",
+        image: "/assets/images/team/junior/Ashish.jpg",
+        linkedin: "https://www.linkedin.com/in/ashish-chotani",
+        instagram: "https://instagram.com/ashishchotani"
       },
       {
         name: "Sagar Yadav",
@@ -129,34 +171,10 @@ export const councilMembers = {
         linkedin: "https://www.linkedin.com/in/sarthak-sachdev-927865249/",
         instagram: "https://www.instagram.com/sarthaksach3004/"
       },
-      {
-        name: "Shubh Yadav",
-        position: "Publicity",
-        image: "/assets/images/team/junior/Shubh Yadav.jpg",
-        linkedin: "https://www.linkedin.com/in/shubhyadav27/",
-        instagram: "https://www.instagram.com/shubh.ydvv/"
-      },
-      {
-        name: "Shwetab",
-        position: "Operations",
-        image: "/assets/images/team/junior/Shwetab.jpg",
-        linkedin: "https://www.linkedin.com/in/shwetab-shandilya-4a7b56230/",
-        instagram: "https://www.instagram.com/shwetab2r/"
-      },
-      {
-        name: "Teeksha Harish",
-        position: "Design",
-        image: "/assets/images/team/junior/Teeksha Harish.jpg",
-        linkedin: "https://www.linkedin.com/in/teeksha-harish-5895a0234/",
-        instagram: "https://www.instagram.com/totodilestaraptor/"
-      },
-      {
-        name: "Vaibhav",
-        position: "Non Tech ",
-        image: "/assets/images/team/junior/Vaibhav Pratap.jpg",
-        linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
-        instagram: "https://www.instagram.com/vaibh.ps__/"
-      },
+      
+      
+      
+      
       
     ],
   };
