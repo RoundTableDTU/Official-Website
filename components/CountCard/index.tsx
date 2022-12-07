@@ -24,6 +24,8 @@ const CountCard = (props: Props) => {
         suffix=" +"
         className="text-white text-5xl"
         duration={2}
+        enableScrollSpy={true}
+        scrollSpyDelay={900}
       />
       <h1 className="text-4xl">{props.countCard.title}</h1>
     </div>

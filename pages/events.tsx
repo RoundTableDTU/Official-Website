@@ -3,6 +3,7 @@ import EventPageCard from "../components/EventPageCard";
 import Layout from "../components/Layout";
 import { eventData, countCardData } from "../utility/roundtableText";
 import CountCard from "../components/CountCard";
+import Marquee from "react-fast-marquee";
 type Props = {};
 
 const events = (props: Props) => {
@@ -13,6 +14,17 @@ const events = (props: Props) => {
   const renderCountCards = countCardData.map((countCard, index) => {
     return <CountCard countCard={countCard} key={index} />;
   });
+
+  const renderImage = eventData.map((event, index) => {
+    return (
+      <img
+        src={event.image + `${index + 1}.png`}
+        alt=""
+        className="aspect-square h-96"
+      />
+    );
+  });
+
   return (
     <Layout className="flex flex-col gap-20">
       <div className="w-full h-full flex flex-col items-center justify-center gap-6 px-4">
@@ -24,6 +36,19 @@ const events = (props: Props) => {
       {/* count up section begins */}
       <div className="w-full flex items-center justify-center gap-16">
         {renderCountCards}
+      </div>
+      <div className="w-full overflow-y-hidden relative">
+        <div className="absolute h-96 w-1/12 bg-gradient-to-r from-primary-orange/[0.4] z-[2]"></div>
+        <Marquee
+          speed={100}
+          gradientColor={[255, 153, 0]}
+          gradientWidth={100}
+          // pauseOnHover={true}
+          gradient={false}
+        >
+          {renderImage}
+        </Marquee>
+        <div className="absolute right-0 top-0 h-96 w-1/12 bg-gradient-to-l from-primary-orange/[0.4] z-[2]"></div>
       </div>
     </Layout>
   );

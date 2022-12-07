@@ -46,7 +46,7 @@ const EventPageCard = (props: Props) => {
           <img
             src={props.event.image + `${props.nonce}.png`}
             alt=""
-            className="rounded-md w-full h-[28rem]"
+            className="rounded-md aspect-square w-full"
           />
         </div>
         <div>
