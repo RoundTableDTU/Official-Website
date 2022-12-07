@@ -18,9 +18,9 @@ const renderCarouselSlides = slides.map((slide, index) => {
       className="text-white h-2/3 flex items-center justify-center relative"
       key={index}
     >
-      <div className="absolute md:left-36 px-16 md:px-0 flex flex-col gap-8 md:gap-16 z-10 md:w-1/2">
+      <div className="absolute md:left-36 px-12 md:px-0 flex flex-col gap-3 md:gap-16 z-10 md:w-1/2">
         <div className="flex flex-col gap-4">
-          <h1 className="text-2xl md:text-7xl pt-10 font-bold">{slide.title}</h1>
+          <h1 className="text-3xl md:text-7xl md:pt-10 font-bold">{slide.title}</h1>
           <h1 className="text-2xl md:text-5xl font-bold">{slide.mediumTitle}</h1>
         </div>
         <h1 className="text-lg md:text-2xl ">{slide.text}</h1>
