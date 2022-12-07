@@ -19,7 +19,7 @@ const events = (props: Props) => {
   const renderImage = eventData.map((event, index) => {
     return (
       <img
-        src={event.image + `${index + 1}.png`}
+        src={event.image}
         alt=""
         className="aspect-square h-96"
       />
@@ -39,7 +39,7 @@ const events = (props: Props) => {
       {/* count up section begins */}
 
       <div className="w-full flex justify-center items-center relative h-full xl:h-[35rem]">
-        <div className="w-full md:w-3/4 lg:w-full grid grid-cols-2 gap-y-16 gap-x-4 xl:flex py-16 h-full">
+        <div className="w-full md:w-3/4 lg:w-full grid grid-cols-2 gap-y-16 md:gap-x-4 xl:flex py-16 h-full">
           {renderCountCards}
         </div>
       </div>
