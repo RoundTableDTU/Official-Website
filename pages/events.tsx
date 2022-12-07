@@ -7,6 +7,7 @@ import Marquee from "react-fast-marquee";
 type Props = {};
 
 const events = (props: Props) => {
+  // rendering functinos
   const renderEventPageCards = eventData.map((event, index) => {
     return <EventPageCard event={event} key={index} nonce={index + 1} />;
   });
@@ -24,7 +25,7 @@ const events = (props: Props) => {
       />
     );
   });
-
+  // actual jsx
   return (
     <Layout className="flex flex-col gap-20">
       <div className="w-full h-full flex flex-col items-center justify-center gap-6 px-4">
