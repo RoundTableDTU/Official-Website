@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Carousel from "../components/Carousel";
-import { homePageAboutText,eventData } from "../utility/roundtableText";
+import { homePageAboutText,eventData,eventDataRev } from "../utility/roundtableText";
 import AboutCards from "../components/AboutCards";
 import EventCard from "../components/EventCard";
 import EventPageCard from "../components/EventPageCard";
@@ -10,7 +10,7 @@ import EventPageCard from "../components/EventPageCard";
 
 
 // latest events come to top and only 4 events come up
-const renderEventPageCards = eventData.reverse().slice(0,4).map((event, index) => {
+const renderEventPageCards = eventDataRev.slice(0,4).map((event, index) => {
   return <EventPageCard event={event} key={index} nonce={index + 1} />;
 });
 

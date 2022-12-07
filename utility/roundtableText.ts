@@ -240,6 +240,8 @@ These include sessions on resumé building, case study analysis and finance and 
 
   ]
 
+  export const eventDataRev = eventData.reverse()
+
   //count card data
 
   export const countCardData = [

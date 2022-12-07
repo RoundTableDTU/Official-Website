@@ -1,14 +1,14 @@
 import React from "react";
 import EventPageCard from "../components/EventPageCard";
 import Layout from "../components/Layout";
-import { eventData, countCardData } from "../utility/roundtableText";
+import { eventDataRev, countCardData } from "../utility/roundtableText";
 import CountCard from "../components/CountCard";
 import Marquee from "react-fast-marquee";
 type Props = {};
 
 const events = (props: Props) => {
   // rendering functinos
-  const renderEventPageCards = eventData.reverse().map((event, index) => {
+  const renderEventPageCards = eventDataRev.map((event, index) => {
     return <EventPageCard event={event} key={index} nonce={index + 1} />;
   });
 
@@ -16,7 +16,7 @@ const events = (props: Props) => {
     return <CountCard countCard={countCard} key={index} />;
   });
 
-  const renderImage = eventData.map((event, index) => {
+  const renderImage = eventDataRev.map((event, index) => {
     return (
       <img
         src={event.image}

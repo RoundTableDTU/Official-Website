@@ -16,7 +16,7 @@ const EventPageCard = (props: Props) => {
   const [toggleDescription, setToggleDescription] = useState(false);
   return (
     <div className="flex flex-col ">
-      <div className="rounded-md object-cover flex flex-col w-full  text-center  md:px-4 pt-4">
+      <div className="rounded-md object-cover flex flex-col w-full  text-center  md:px-2 pt-4">
         <div className="flex justify-between border-2 border-b-0 event-border rounded-t-lg  px-3 py-4">
           <div className="flex gap-2 justify-center items-center">
             <div className="w-10 rounded-full bg-primary-orange flex items-center justify-center">
