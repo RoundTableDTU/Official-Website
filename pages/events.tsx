@@ -35,7 +35,7 @@ const events = (props: Props) => {
         <div className="w-full flex gap-16">{renderEventPageCards}</div>
       </div>
       {/* count up section begins */}
-      <div className="w-full flex items-center justify-center gap-16">
+      <div className="max-w-full flex items-center justify-center lg:gap-16 px-4">
         {renderCountCards}
       </div>
       <div className="w-full overflow-y-hidden relative">
