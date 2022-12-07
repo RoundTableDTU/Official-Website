@@ -256,12 +256,12 @@ These include sessions on resumé building, case study analysis and finance and 
     {
       title: `Webinars`,
       count: 25,
-      image: `/assets/logos/sponser.svg`,
+      image: `/assets/logos/webinar.svg`,
     },
     {
       title: `Events`,
       count: 10,
-      image: `/assets/logos/sponser.svg`,
+      image: `/assets/logos/events.svg`,
     },
       {
         title: `Sponsors`,

@@ -33,24 +33,15 @@ const events = (props: Props) => {
           Recent <span className="text-primary-orange">Events</span>
         </h1>
       </div>
-        <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-5 px-7">{renderEventPageCards}</div>
+      <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-5 px-7">
+        {renderEventPageCards}
+      </div>
       {/* count up section begins */}
 
-      <div className="relative my-10 h-full">
-      <div className=" z-10 absolute w-full grid grid-cols-2 md:grid-cols-5 items-center py-16 justify-center  lg:gap-16 px-4">
-        {renderCountCards}
-      </div>
-      <div className="h-full w-full absolute top-0  z-[2] bg-[#1f0909]/[0.5]"></div>
-      <img
-        src='/assets/images/event-counter-bg.jpg'
-        alt="dtu-bg"
-        className="w-full max-h-[420px] object-cover hidden md:block rounded-lg"
-      />
-      <img
-        src='/assets/images/counter-phone-bg.jpg'
-        alt="dtu-bg"
-        className="w-full md:max-h-[420px] object-cover md:hidden  rounded-lg"
-      />
+      <div className="w-full flex justify-center items-center relative h-full xl:h-[35rem]">
+        <div className="w-full md:w-3/4 lg:w-full grid grid-cols-2 gap-y-16 gap-x-4 xl:flex py-16 h-full">
+          {renderCountCards}
+        </div>
       </div>
       <div className="w-full overflow-y-hidden relative">
         <div className="absolute h-96 w-1/12 bg-gradient-to-r from-primary-orange/[0.4] z-[2]"></div>

@@ -11,7 +11,7 @@ type Props = {
 
 const CountCard = (props: Props) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-8 px-2 w-1/5 py-4">
+    <div className="flex flex-col justify-center items-center gap-8 px-2 w-full md:w-1/2 lg:w-full xl:w-2/3 py-4">
       <div className="w-20 rounded-full bg-primary-orange flex items-center justify-center">
         <img
           src={props.countCard.image}

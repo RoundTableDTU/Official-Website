@@ -8,6 +8,12 @@ type Props = {
 
 function ActiveLink({ children, href }: Props) {
   const router = useRouter();
+
+  (function prefetchPages() {
+    if (typeof window !== "undefined") {
+      router.prefetch(router.pathname);
+    }
+  })();
   const style = {
     textDecoration: "none",
     margin: 0,
