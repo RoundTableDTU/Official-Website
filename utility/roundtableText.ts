@@ -161,6 +161,30 @@ These include sessions on resumé building, case study analysis and finance and 
       description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
       location: `Online`,         
     },
+    {
+      title: `Vox Pop`,
+      image: `/assets/images/events/`,
+      date: `19 June, 2021`,
+      speakers: [`in collaboration with AIQA`, `queer DTU`],
+      description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
+      location: `Online`,         
+    },
+    {
+      title: `Vox Pop`,
+      image: `/assets/images/events/`,
+      date: `19 June, 2021`,
+      speakers: [`in collaboration with AIQA`, `queer DTU`],
+      description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
+      location: `Online`,        
+    },
+    {
+      title: `Vox Pop`,
+      image: `/assets/images/events/`,
+      date: `19 June, 2021`,
+      speakers: [`in collaboration with AIQA`, `queer DTU`],
+      description: `Vox pop was a peer discussion event to discuss about homophobia and does society play a role in homophobia or is it an individual choice?`,
+      location: `Online`,        
+    },
   ]
 
   //count card data
@@ -177,17 +201,17 @@ These include sessions on resumé building, case study analysis and finance and 
       image: `/assets/logos/speaker.svg`,
     },
     {
-      title: `Sponsers`,
-      count: 10,
+      title: `Webinars`,
+      count: 25,
       image: `/assets/logos/sponser.svg`,
     },
     {
-      title: `Sponsers`,
+      title: `Events`,
       count: 10,
       image: `/assets/logos/sponser.svg`,
     },
       {
-        title: `Sponsers`,
+        title: `Sponsors`,
         count: 10,
         image: `/assets/logos/sponser.svg`,
       },

@@ -8,7 +8,7 @@ import Link from "next/link"
 type Props = {};
 
 const Footer = (props: Props) => {
-  return <div className="bg-[#0A0702] relative -top-2 pt-12 md:pt-20">
+  return <div className="bg-[#0A0702]  pt-12 md:pt-20">
     <footer className=" bg-gradient-to-r  to-primary-orange from-[#F04512] z-[-10] ">
 
       <div className="text-center">

@@ -184,5 +184,17 @@ background: linear-gradient(60deg,rgba(10,7,2,1) 30%, #e2561f70 50%,  rgba(10,7,
     border-image: linear-gradient(90deg, #ba6016 0%,rgba(255, 153, 0, 0.3) 50%, #834b1b 100%);
     border-image-slice: 1;
 }
+
+
+.event-border{
+    border-image: linear-gradient(90deg, #66340b 0%,rgba(255, 153, 0, 0.3) 50%, #e76c37 100%);
+    border-image-slice: 1;
+}
+
+.event-counter{
+    background-image: url('/assets/images/event-counter-bg.jpg');
+    background-position: center;
+    
+}
 /* footer */
 
