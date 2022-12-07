@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Head from "next/head"
 import CouncilMemberCard from "../components/CouncilMemberCard";
 import Layout from "../components/Layout";
 import { councilMembers } from "../utility/councilMembers";
@@ -47,6 +48,9 @@ const Team = (props: Props) => {
 
   return (
     <Layout>
+      <Head>
+        <title>RoundTable DTU</title>
+      </Head>
       <div className=" pt-8 flex flex-col gap-16 pb-8 justify-center items-center">
         <div className="flex gap-6 items-center px-5 justify-center">
           {councilToggleButtons}

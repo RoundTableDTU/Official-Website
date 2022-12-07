@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head"
 import EventPageCard from "../components/EventPageCard";
 import Layout from "../components/Layout";
 import { eventDataRev, countCardData } from "../utility/roundtableText";
@@ -28,6 +29,9 @@ const events = (props: Props) => {
   // actual jsx
   return (
     <Layout className="flex flex-col ">
+      <Head>
+        <title>RoundTable DTU</title>
+      </Head>
       <div className=" ">
         <h1 className="md:text-7xl text-4xl text-white font-bold py-4 md:pb-8 px-8 ">
           Recent <span className="text-primary-orange">Events</span>

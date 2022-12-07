@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SigCard from "../components/SigCard";
 import { aboutRoundTable, sigInfo, sigList } from "../utility/roundtableText";
 import Layout from "../components/Layout";
+import Head from "next/head"
 import FaqAccordian from "../components/FaqAccordian";
 
 type Props = {};
@@ -14,6 +15,9 @@ const About = (props: Props) => {
 
   return (
     <Layout className="flex flex-col ">
+      <Head>
+        <title>RoundTable DTU</title>
+      </Head>
       <div className="about-rt pb-4">
         <div className="flex flex-col px-8 md:flex-row md:gap-16 justify-center m-auto md:px-32 py-12">
           <div className="flex flex-col  md:w-3/5">

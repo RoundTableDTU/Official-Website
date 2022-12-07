@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Carousel from "../components/Carousel";
@@ -82,6 +83,9 @@ const Home: NextPage = () => {
   return (
     <div className="w-full">
       <Layout>
+      <Head>
+        <title>RoundTable DTU</title>
+      </Head>
         <div className="w-full md:h-screen flex flex-col gap-10 justify-center items-center">
           <Carousel />
         </div>
