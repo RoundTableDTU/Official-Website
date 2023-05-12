@@ -136,7 +136,7 @@ export const councilMembers = {
         image: "/assets/images/team/junior/Sarthak Sachdeva.jpg",
         linkedin: "https://www.linkedin.com/in/sarthak-sachdev-927865249/",
         instagram: "https://www.instagram.com/sarthaksach3004/"
-      },
+      }
       
       
       
