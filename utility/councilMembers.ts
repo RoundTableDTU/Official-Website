@@ -90,22 +90,7 @@ export const councilMembers = {
         instagram: "https://www.instagram.com/"
       },
       
-      
-      {
-        name: "Raj Devanshu",
-        position: "Publicity",
-        image: "/assets/images/team/junior/Raj Devanshu.jpg",
-        linkedin: "https://www.linkedin.com/in/raj-devanshu-1a939a230/",
-        instagram: "https://www.instagram.com/sono_io_raj/"
-      },
-
-      {
-        name: "Shubh Yadav",
-        position: "Publicity",
-        image: "/assets/images/team/junior/Shubh Yadav.jpg",
-        linkedin: "https://www.linkedin.com/in/shubhyadav27/",
-        instagram: "https://www.instagram.com/shubh.ydvv/"
-      },
+    
       
       {
         name: "Hemang Krish",
@@ -121,20 +106,7 @@ export const councilMembers = {
         linkedin: "https://www.linkedin.com/in/teeksha-harish-5895a0234/",
         instagram: "https://www.instagram.com/totodilestaraptor/"
       },
-      {
-        name: "Shwetab",
-        position: "Operations",
-        image: "/assets/images/team/junior/Shwetab.jpg",
-        linkedin: "https://www.linkedin.com/in/shwetab-shandilya-4a7b56230/",
-        instagram: "https://www.instagram.com/shwetab2r/"
-      },
-      {
-        name: "Muskan",
-        position: "Operations",
-        image: "/assets/images/team/junior/Muskan.jpg",
-        linkedin: "https://www.linkedin.com/in/",
-        instagram: "https://www.instagram.com/_muskan_2096/"
-      },
+    
       
       {
         name: "Rishab Goyal",
@@ -157,13 +129,7 @@ export const councilMembers = {
         linkedin: "https://www.linkedin.com/in/ashish-chotani",
         instagram: "https://instagram.com/ashishchotani"
       },
-      {
-        name: "Sagar Yadav",
-        position: "Content",
-        image: "/assets/images/team/junior/Sagar Yadav.jpg",
-        linkedin: "https://www.linkedin.com/in/sagaryadav2001/",
-        instagram: "https://www.instagram.com/_.saga.r_/"
-      },
+
       {
         name: "Sarthak",
         position: "Content",
