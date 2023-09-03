@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Carousel from "../components/Carousel";
-import { homePageAboutText,eventData,eventDataRev } from "../utility/roundtableText";
+import { homePageAboutText, eventData, eventDataRev } from "../utility/roundtableText";
 import AboutCards from "../components/AboutCards";
 import EventCard from "../components/EventCard";
 import EventPageCard from "../components/EventPageCard";
@@ -11,7 +11,7 @@ import EventPageCard from "../components/EventPageCard";
 
 
 // latest events come to top and only 4 events come up
-const renderEventPageCards = eventDataRev.slice(0,4).map((event, index) => {
+const renderEventPageCards = eventDataRev.slice(0, 4).map((event, index) => {
   return <EventPageCard event={event} key={index} nonce={index + 1} />;
 });
 
@@ -44,48 +44,14 @@ const renderAboutCards = aboutCardInfo.map((card, index) => {
     />
   );
 });
-//MADE NEW EVENT CARDS
-// const recentEvents = [
-//   {
-//     title: "Webinar on Cyber Security",
-//     image: "/assets/images/aubergine.jpg",
-//     location: "Online",
-//     date: "21st September 2021",
-//   },
-//   {
-//     title: "Webinar on Cyber Security",
-//     image: "/assets/images/aubergine.jpg",
-//     location: "Online",
-//     date: "21st September 2021",
-//   },
-//   {
-//     title: "Webinar on Cyber Security",
-//     image: "/assets/images/aubergine.jpg",
-//     location: "Online",
-//     date: "21st September 2021",
-//   },
-// ];
-
-// const renderRecentEvents = recentEvents.map((event, index) => {
-//   return (
-//     <EventCard
-//       title={event.title}
-//       image={event.image}
-//       location={event.location}
-//       date={event.date}
-//       key={index}
-//     />
-//   );
-// });
-
 
 const Home: NextPage = () => {
   return (
     <div className="w-full">
       <Layout>
-      <Head>
-        <title>RoundTable DTU</title>
-      </Head>
+        <Head>
+          <title>RoundTable DTU</title>
+        </Head>
         <div className="w-full md:h-screen flex flex-col gap-10 justify-center items-center">
           <Carousel />
         </div>
@@ -107,12 +73,8 @@ const Home: NextPage = () => {
             <h1 className="md:text-7xl text-4xl font-bold md:px-24  text-white rounded-md px-10 py-4">
               Recent <span className="text-primary-orange">Events</span>
             </h1>
-{/* 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-16 md:gap-x-4 md:gap-y-12 lg:gap-8 xl:gap-24 px-3 m-auto p-10">
 
-              {renderEventPageCards}
-            </div> */}
-        <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-4 px-7">{renderEventPageCards}</div>
+            <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-4 px-7">{renderEventPageCards}</div>
 
           </div>
         </div>
