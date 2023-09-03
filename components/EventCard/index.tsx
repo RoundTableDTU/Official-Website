@@ -7,6 +7,7 @@ type Props = {
   date: string;
 };
 
+
 const EventCard = (props: Props) => {
   return (
     <div className="rounded-md object-cover flex flex-col w-full xl:w-[20vw] text-center gap-2">
