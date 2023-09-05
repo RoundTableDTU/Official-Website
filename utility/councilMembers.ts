@@ -1,5 +1,5 @@
 export const councilMembers = {
-    'seniorCouncil': [
+    'juniorCouncil': [
       {
         name: "Saksham Checker",
         position: "President",
@@ -9,7 +9,7 @@ export const councilMembers = {
       },
       {
         name: "Saksham Gupta",
-        position: "Vice President",
+        position: "vice President",
         image: "/assets/images/team/senior/8.jpg",
         linkedin: "https://www.linkedin.com/in/saksham-gupta-12a5001b8/",
         instagram: "https://www.instagram.com/saksham_gpt11/"
@@ -58,85 +58,60 @@ export const councilMembers = {
         instagram: "https://www.instagram.com/hritiksolankii/"
       },
     ],
-    'juniorCouncil': [
+    'seniorCouncil': [
      
       {
         name: "Chaitanya",
-        position: "Tech",
+        position: "Vice President-Tech",
         image: "/assets/images/team/junior/Chaitanya Anand.jpg",
         linkedin: "https://www.linkedin.com/in/chaitanyanand/",
         instagram: "https://www.instagram.com/ultigend_lemate/"
       },
       {
         name: "Vishu Bansal",
-        position: "Tech",
+        position: "President",
         image: "/assets/images/team/junior/Vishu Bansal.jpg",
         linkedin: "https://www.linkedin.com/in/vishu-bansal-30385a20b/",
         instagram: "https://www.instagram.com/vbstellar/"
       },
       
       {
-        name: "Vaibhav",
-        position: "Non Tech ",
-        image: "/assets/images/team/junior/Vaibhav Pratap.jpg",
-        linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
-        instagram: "https://www.instagram.com/vaibh.ps__/"
-      },
-      {
-        name: "Chiranjeevi",
-        position: "Non Tech",
-        image: "/assets/images/team/junior/Chiranjeevi.jpg",
-        linkedin: "https://www.linkedin.com/in/chiranjeevi-choudhary-10294a234/",
-        instagram: "https://www.instagram.com/"
-      },
-      
-    
-      
-      {
-        name: "Hemang Krish",
-        position: "Design",
-        image: "/assets/images/team/junior/Hemang Krish.jpg",
-        linkedin: "https://www.linkedin.com/in/hemang-krish-a739a1229/?trk=public_profile_browsemap&originalSubdomain=in",
-        instagram: "https://www.instagram.com/hk_being_duke/"
-      },
-      {
-        name: "Teeksha Harish",
-        position: "Design",
-        image: "/assets/images/team/junior/Teeksha Harish.jpg",
-        linkedin: "https://www.linkedin.com/in/teeksha-harish-5895a0234/",
-        instagram: "https://www.instagram.com/totodilestaraptor/"
-      },
-    
-      
-      {
-        name: "Rishab Goyal",
-        position: "Corporate",
+        name: "Rishabh Goyal",
+        position: "General Secretary",
         image: "/assets/images/team/junior/Rishab Goyal.jpg",
         linkedin: "https://www.linkedin.com/in/rishabh-goyal-6b7a1b201/?originalSubdomain=in",
         instagram: "https://www.instagram.com/rishabh_goyaal/"
       },
       {
         name: "Anuj Singh",
-        position: "Corporate",
+        position: "Vice President-Non Tech",
         image: "/assets/images/team/junior/Anuj Singh.jpg",
         linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
         instagram: "https://www.instagram.com/anujsingh.22/"
       },
       {
         name: "Ashish Chotani",
-        position: "Corporate",
+        position: "Tresurer",
         image: "/assets/images/team/junior/Ashish.jpg",
         linkedin: "https://www.linkedin.com/in/ashish-chotani",
         instagram: "https://instagram.com/ashishchotani"
       },
 
       {
-        name: "Sarthak",
-        position: "Content",
-        image: "/assets/images/team/junior/Sarthak Sachdeva.jpg",
-        linkedin: "https://www.linkedin.com/in/sarthak-sachdev-927865249/",
-        instagram: "https://www.instagram.com/sarthaksach3004/"
-      }
+        name: "Vaibhav",
+        position: "Event Head ",
+        image: "/assets/images/team/junior/Vaibhav Pratap.jpg",
+        linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
+        instagram: "https://www.instagram.com/vaibh.ps__/"
+      },
+
+      {
+        name: "Vamsi",
+        position: "Event Head ",
+        image: "/assets/images/team/junior/Vaib",
+        linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
+        instagram: "https://www.instagram.com/vaibh.ps__/"
+      },
       
       
       
