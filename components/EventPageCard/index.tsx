@@ -1,5 +1,7 @@
-import React from "react";
 import { FaTimes } from 'react-icons/fa'
+import React, { useEffect } from 'react'
+import { useInView } from 'react-intersection-observer';
+import { motion, useAnimation } from "framer-motion";
 
 type Props = {
   event: {
@@ -23,11 +25,28 @@ const EventPageCard = (props: Props) => {
       document.body.style.overflow = 'unset'
     }
   }, [showModal])
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ threshold: 0.01 });
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
+
   return (
     <>
-      <div className="max-w-sm bg-black px-6 pt-6 pb-2 shadow-lg transform hover:scale-105 transition duration-500 justify-center mx-auto">
+      <motion.div
+        animate={controls}
+        initial="hidden"
+        transition={{ duration: 0.4 }}
+        variants={{
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 60 },
+        }}
+        ref={ref} className="max-w-sm bg-black px-6 pt-6 pb-2 shadow-lg transform hover:scale-105 transition duration-500 justify-center mx-auto" >
         {/* <h3 className="mb-6 text-lg md:text-2xl w-auto text-center font-bold text-primary-orange h-12 align-middle">{props.event.title}</h3> */}
-        <div className="relative ">
+        <div className="relative " >
           <img className="w-full h-full md:h-[200px] xl:h-[300px] object-cover" src={props.event.image} alt="Colors" />
         </div>
         <div className="w-full h-auto text-sm lg:text-base lg:py-2 px-2 py-1 my-4 rounded-lg font-semibold text-center bg-primary-orange">Speaker:<p className="font-bold text-xl">{props.event.speakers}</p></div>
@@ -62,7 +81,7 @@ const EventPageCard = (props: Props) => {
           </div>
           <button onClick={() => setShowModal(true)} className="mt-4 text-xl w-full text-white shadow-primary-orange py-2 rounded-base shadow-md">Know More</button>
         </div>
-      </div>
+      </motion.div >
       {
         showModal && (
           <div className="fixed w-screen h-[100vh]  bottom-0 left-0 z-[999] flex items-center justify-center bg-white bg-opacity-10 backdrop-blur-md overflow-y-hidden">
