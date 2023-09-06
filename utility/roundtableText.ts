@@ -2,14 +2,14 @@ export const homePageAboutText = `RoundTable, Delhi Technological University was
 
 export const slides = [
   {
-    image: `/assets/images/carouselImages/a1.jpeg`,
+    image: `/assets/images/carouselImages/a1.jpg`,
     title: `ROUNDTABLE.`,
     mediumTitle: `Overview`,
-    text: `The skill development society of DTU.`,
+    text: `The Biggest skill development society of DTU.`,
   },
   {
-    image: `/assets/images/carouselImages/a2.jpeg`,
-    title: `ROUNDTABLE.`,
+    image: `/assets/images/carouselImages/a2.jpg`,
+    title: `ROUNDTABLE. `,
     mediumTitle: `EVENTS`,
     text: `We conduct regular events & competitions to challenge our skill sets We organize regular meetups, group discussions, case study competitions, and hackathons for students.`,
   },
