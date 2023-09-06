@@ -19,7 +19,11 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
+        'josefin': ['Josefin Sans', 'sans-serif'],
+        'oswald': ['Oswald', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif']
       },
+      
       boxShadow: {
         'primary-orange-outer': '10px 10px 50px 3px rgba(255, 153, 0, 0.3)',
         'primary-orange-inner': 'inset 10px 10px 50px 3px rgba(255, 153, 0, 0.3)',
