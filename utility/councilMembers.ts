@@ -1,5 +1,5 @@
 export const councilMembers = {
-    'juniorCouncil': [
+      'juniorCouncil': [
       {
         name: "Saksham Checker",
         position: "President",
@@ -63,14 +63,14 @@ export const councilMembers = {
       {
         name: "Chaitanya",
         position: "Vice President-Tech",
-        image: "/assets/images/team/junior/Chaitanya Anand.jpg",
+        image: "/assets/images/team/senior/Chaitanya Anand.jpg",
         linkedin: "https://www.linkedin.com/in/chaitanyanand/",
         instagram: "https://www.instagram.com/ultigend_lemate/"
       },
       {
         name: "Vishu Bansal",
         position: "President",
-        image: "/assets/images/team/junior/Vishu Bansal.jpg",
+        image: "/assets/images/team/senior/Vishu Bansal.jpg",
         linkedin: "https://www.linkedin.com/in/vishu-bansal-30385a20b/",
         instagram: "https://www.instagram.com/vbstellar/"
       },
@@ -78,21 +78,21 @@ export const councilMembers = {
       {
         name: "Rishabh Goyal",
         position: "General Secretary",
-        image: "/assets/images/team/junior/Rishab Goyal.jpg",
+        image: "/assets/images/team/senior/Rishab Goyal.jpg",
         linkedin: "https://www.linkedin.com/in/rishabh-goyal-6b7a1b201/?originalSubdomain=in",
         instagram: "https://www.instagram.com/rishabh_goyaal/"
       },
       {
         name: "Anuj Singh",
         position: "Vice President-Non Tech",
-        image: "/assets/images/team/junior/Anuj Singh.jpg",
+        image: "/assets/images/team/senior/Anuj Singh.jpg",
         linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
         instagram: "https://www.instagram.com/anujsingh.22/"
       },
       {
         name: "Ashish Chotani",
         position: "Tresurer",
-        image: "/assets/images/team/junior/Ashish.jpg",
+        image: "/assets/images/team/senior/Ashish.jpg",
         linkedin: "https://www.linkedin.com/in/ashish-chotani",
         instagram: "https://instagram.com/ashishchotani"
       },
@@ -100,7 +100,7 @@ export const councilMembers = {
       {
         name: "Vaibhav",
         position: "Event Head ",
-        image: "/assets/images/team/junior/Vaibhav Pratap.jpg",
+        image: "/assets/images/team/senior/Vaibhav Pratap.jpg",
         linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
         instagram: "https://www.instagram.com/vaibh.ps__/"
       },
@@ -108,7 +108,7 @@ export const councilMembers = {
       {
         name: "Vamsi",
         position: "Event Head ",
-        image: "/assets/images/team/junior/Vaib",
+        image: "/assets/images/team/senior/Vaib",
         linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
         instagram: "https://www.instagram.com/vaibh.ps__/"
       },

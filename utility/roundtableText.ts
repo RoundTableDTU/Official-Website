@@ -9,7 +9,7 @@ export const slides = [
   },
   {
     image: `/assets/images/carouselImages/a2.jpg`,
-    title: `ROUNDTABLE. `,
+    title: `ROUNDTABLE.`,
     mediumTitle: `EVENTS`,
     text: `We conduct regular events & competitions to challenge our skill sets We organize regular meetups, group discussions, case study competitions, and hackathons for students.`,
   },
