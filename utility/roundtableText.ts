@@ -315,12 +315,12 @@ export const eventDataRev = eventData.reverse();
 export const countCardData = [
   {
     title: `Participants`,
-    count: 100,
+    count: 1000,
     image: `/assets/logos/participants.svg`,
   },
   {
     title: `Speakers`,
-    count: 20,
+    count: 30,
     image: `/assets/logos/speaker.svg`,
   },
   {
@@ -330,12 +330,12 @@ export const countCardData = [
   },
   {
     title: `Events`,
-    count: 10,
+    count: 20,
     image: `/assets/logos/events.svg`,
   },
   {
     title: `Sponsors`,
-    count: 10,
+    count: 20,
     image: `/assets/logos/sponser.svg`,
   },
 ];
