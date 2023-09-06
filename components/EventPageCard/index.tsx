@@ -2,6 +2,7 @@ import { FaTimes } from 'react-icons/fa'
 import React, { useEffect } from 'react'
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from "framer-motion";
+import Image from "next/image"
 
 type Props = {
   event: {
@@ -47,7 +48,7 @@ const EventPageCard = (props: Props) => {
         ref={ref} className="max-w-sm bg-black px-6 pt-6 pb-2 shadow-lg transform hover:scale-105 transition duration-500 justify-center mx-auto" >
         {/* <h3 className="mb-6 text-lg md:text-2xl w-auto text-center font-bold text-primary-orange h-12 align-middle">{props.event.title}</h3> */}
         <div className="relative " >
-          <img className="w-full h-full md:h-[200px] xl:h-[300px] object-cover" src={props.event.image} alt="Colors" />
+          <Image width={290} height={300}  className="w-full h-full md:h-[200px] xl:h-[300px] object-cover" src={props.event.image} alt="Colors" />
         </div>
         <div className="w-full h-auto text-sm lg:text-base lg:py-2 px-2 py-1 my-4 rounded-lg font-semibold text-center bg-primary-orange">Speaker:<p className="font-bold text-xl">{props.event.speakers}</p></div>
         <div className="my-4">
