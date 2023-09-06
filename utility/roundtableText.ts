@@ -138,7 +138,7 @@ export const sigList = [
     image: `/assets/sigs/finance.svg`,
   },
   {
-    title: `Data Analysis`,
+    title: `Design`,
     image: `/assets/sigs/data.svg`,
   },
 ];
