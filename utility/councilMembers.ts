@@ -108,9 +108,9 @@ export const councilMembers = {
       {
         name: "Vamsi",
         position: "Event Head ",
-        image: "/assets/images/team/senior/Vaib",
-        linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
-        instagram: "https://www.instagram.com/vaibh.ps__/"
+        image: "/assets/images/team/senior/Vamsi.jpg",
+        linkedin: "https://in.linkedin.com/in/vamsi-vishwanath-9294a3133",
+        instagram: "https://www.instagram.com/"
       },
       
       
