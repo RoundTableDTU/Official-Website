@@ -47,18 +47,22 @@ const Navbar = () => {
 
         {/* Mobile Menu Sidebar */}
         {mobileMenuOpen && (
-          <div className="fixed z-20 inset-0 bg-black w-64 py-4 px-6 text-white">
-            <div className="flex flex-col text-lg gap-y-6 items-start">
+          <div className="fixed z-20  top-0 right-0 h-full bg-black w-full py-4 px-6 text-white">
+            <div className="flex flex-col text-lg gap-y-6 items-center">
+              <div className="flex justify-end w-full ">
               <button
                 onClick={toggleMobileMenu}
-                className="text-white text-3xl focus:outline-none mb-4"
+                className="text-white  text-3xl focus:outline-none mb-4"
               >
                 ✕
               </button>
-              <ActiveLink href="/">Home</ActiveLink>
-              <ActiveLink href="/about">About</ActiveLink>
-              <ActiveLink href="/events">Events</ActiveLink>
-              <ActiveLink href="/team">Team</ActiveLink>
+              </div>
+              <div className="links flex-col flex text-xl gap-y-8 justify-center mt-5 ">
+                <ActiveLink href="/">Home</ActiveLink>
+                <ActiveLink href="/about">About</ActiveLink>
+                <ActiveLink href="/events">Events</ActiveLink>
+                <ActiveLink href="/team">Team</ActiveLink>
+              </div>
             </div>
           </div>
         )}

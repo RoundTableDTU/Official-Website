@@ -79,25 +79,8 @@ export const councilMembers = {
         name: "Rishi Raj",
         position: "Tech ",
         image: "/assets/images/team/junior/rishi.jpg",
-        linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
-        instagram: "https://www.instagram.com/vaibh.ps__/"
-      },
-      {
-        name: "Mahatva Anand",
-        position: "Design",
-        image: "/assets/images/team/junior/mahatva.jpg",
-        linkedin: "https://www.linkedin.com/in/chiranjeevi-choudhary-10294a234/",
-        instagram: "https://www.instagram.com/"
-      },
-      
-    
-      
-      {
-        name: "Aryan Singh",
-        position: "Design",
-        image: "/assets/images/team/junior/aryan.jpg",
-        linkedin: "https://www.linkedin.com/in/hemang-krish-a739a1229/?trk=public_profile_browsemap&originalSubdomain=in",
-        instagram: "https://www.instagram.com/hk_being_duke/"
+        linkedin: "https://www.linkedin.com/in/rishi-raj-prajapati",
+        instagram: "https://instagram.com/rishii_h.e.r.e?utm_source=qr&igshid=OGIxMTE0OTdkZA=="
       },
       {
         name: "Rahul Gupta",
@@ -106,8 +89,6 @@ export const councilMembers = {
         linkedin: "https://www.linkedin.com/in/rahul-gupta-43a58524b/",
         instagram: "https://www.instagram.com/rahul19.x/"
       },
-    
-      
       {
         name: "Priyank Popli",
         position: "Non Tech",
@@ -119,30 +100,43 @@ export const councilMembers = {
         name: "Tanishq",
         position: "Corporate",
         image: "/assets/images/team/junior/tanishq.jpg",
-        linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
-        instagram: "https://www.instagram.com/anujsingh.22/"
+        linkedin: "https://www.linkedin.com/in/tanishq-chauhan-2955a51bb",
+        instagram: "https://www.instagram.com/tanishk_chauhan88/"
       },
       {
         name: "Bhaskar Govil",
         position: "Corporate",
         image: "/assets/images/team/junior/bhaskar.jpg",
-        linkedin: "https://www.linkedin.com/in/ashish-chotani",
-        instagram: "https://instagram.com/ashishchotani"
+        linkedin: "http://www.linkedin.com/in/bhaskargovil",
+        instagram: ""
       },
-
       {
         name: "Aman Gupta",
         position: "Corporate",
         image: "/assets/images/team/junior/aman.png",
-        linkedin: "https://www.linkedin.com/in/sarthak-sachdev-927865249/",
-        instagram: "https://www.instagram.com/sarthaksach3004/"
+        linkedin: "https://www.linkedin.com/in/aman-gupta-16a40920a",
+        instagram: "https://instagram.com/sin_cerely__aman?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D"
       },
+      {
+        name: "Mahatva Anand",
+        position: "Design",
+        image: "/assets/images/team/junior/mahatva.jpg",
+        linkedin: "",
+        instagram: "https://www.instagram.com/mahatva._.anand/"
+      },
+      {
+        name: "Aryan Singh",
+        position: "Design",
+        image: "/assets/images/team/junior/aryan.jpg",
+        linkedin: "https://www.linkedin.com/in/aryann3000",
+        instagram: "https://instagram.com/aryann3000?igshid=MzRlODBiNWFlZA=="
+      },      
       {
         name: "Utkarsh Kaurav",
         position: "Operations",
         image: "/assets/images/team/junior/utkarsh.jpg",
-        linkedin: "https://www.linkedin.com/in/sarthak-sachdev-927865249/",
-        instagram: "https://www.instagram.com/sarthaksach3004/"
+        linkedin: "https://www.linkedin.com/in/utkarsh-kaurav-311385255",
+        instagram: "https://www.instagram.com/utkarshhh_04/"
       },
       {
         name: "Vaibhav Tiwari",
@@ -155,15 +149,15 @@ export const councilMembers = {
         name: "Parth Jain",
         position: "Public Relation",
         image: "/assets/images/team/junior/parth.jpg",
-        linkedin: "https://www.linkedin.com/in/ashish-chotani",
-        instagram: "https://instagram.com/ashishchotani"
+        linkedin: "",
+        instagram: "https://instagram.com/parthjain_1304?utm_source=qr&igshid=OGIxMTE0OTdkZA=="
       },
       {
         name: "Prayas Pandey",
         position: "Public Relation",
         image: "/assets/images/team/junior/prayas.jpg",
-        linkedin: "https://www.linkedin.com/in/ashish-chotani",
-        instagram: "https://instagram.com/ashishchotani"
+        linkedin: "",
+        instagram: "https://instagram.com/pra.yaaas?utm_source=qr&igshid=YzU1NGVlODEzOA=="
       },
       {
         name: "Ayush Rana",
