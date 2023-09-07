@@ -1,4 +1,8 @@
-import React, { useState } from "react";
+import { FaTimes } from 'react-icons/fa'
+import React, { useEffect } from 'react'
+import { useInView } from 'react-intersection-observer';
+import { motion, useAnimation } from "framer-motion";
+import Image from "next/image"
 
 type Props = {
   event: {
@@ -13,86 +17,89 @@ type Props = {
 };
 
 const EventPageCard = (props: Props) => {
-  const [toggleDescription, setToggleDescription] = useState(false);
+  const [showModal, setShowModal] = React.useState(false)
+  //stop scroll when modal is open
+  React.useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+  }, [showModal])
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ threshold: 0.01 });
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
+
   return (
-    <div className="flex flex-col ">
-      <div className="rounded-md object-cover flex flex-col w-full  text-center  md:px-2 pt-4">
-        <div className="flex justify-between border-2 border-b-0 event-border rounded-t-lg  px-3 py-4">
-          <div className="flex gap-2 justify-center items-center">
-            <div className="w-10 rounded-full bg-primary-orange flex items-center justify-center">
-              <img
-                src="/assets/logos/location_2.svg"
-                alt="sig-pic"
-                className="h-full aspect-square p-2"
-              />
+    <>
+      <motion.div
+        animate={controls}
+        initial="hidden"
+        transition={{ duration: 0.4 }}
+        variants={{
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 60 },
+        }}
+        ref={ref} className="max-w-sm bg-black px-6 pt-6 pb-2 shadow-lg transform hover:scale-105 transition duration-500 justify-center mx-auto" >
+        {/* <h3 className="mb-6 text-lg md:text-2xl w-auto text-center font-bold text-primary-orange h-12 align-middle">{props.event.title}</h3> */}
+        <div className="relative " >
+          <Image width={290} height={300}  className="w-full h-full md:h-[200px] xl:h-[300px] object-cover" src={props.event.image} alt="Colors" />
+        </div>
+        <div className="w-full h-auto text-sm lg:text-base lg:py-2 px-2 py-1 my-4 rounded-lg font-semibold text-center bg-primary-orange">Speaker:<p className="font-bold text-xl">{props.event.speakers}</p></div>
+        <div className="my-4">
+
+          <div className="flex flex-row">
+            <div className="flex space-x-1 flex-start mb-1 w-full">
+              <div className="text-gray-800 font-semibold justify-start flex flex-row">
+                <img src="/assets/images/location.png" alt="" className="h-8 w-auto" />
+                <p className="text-white my-auto mx-1 font-base">{props.event.location}</p>
+              </div>
             </div>
-            <h2>{props.event.location}</h2>
-          </div>
-          <div className="flex gap-2 justify-center items-center">
-            <div className="w-10 rounded-full bg-primary-orange flex items-center justify-center">
-              <img
-                src="/assets/logos/calender_2.svg"
-                alt="sig-pic"
-                className="h-full aspect-square p-2"
-              />
+            <div className="flex space-x-1 flex-end mb-1 md:-ml-1 w-full">
+              <span className="my-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-primary-orange"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </span>
+              <p className="m-auto">{props.event.date}</p>
             </div>
-            <h2>{props.event.date}</h2>
           </div>
+          <button onClick={() => setShowModal(true)} className="mt-4 text-xl w-full text-white shadow-primary-orange py-2 rounded-base shadow-md">Know More</button>
         </div>
-        <div className="flex flex-col  bg-muted-orange px-4 md:px-1 py-2 mb-5 rounded-lg w-full m-auto">
-          <h2 className="text-xl font-semibold">{props.event.title}</h2>
-        </div>
-        <div className="object-cover w-auto">
-          <img
-            src={props.event.image}
-            alt=""
-            className="rounded-md aspect-square w-full"
-          />
-        </div>
-        <div className="py-5">
-          <span className="bg-primary-orange py-1 px-2 rounded-lg text-primary-black font-semibold">
-            Speakers:
-          </span>
-          {props.event.speakers.map((speaker, index) => {
-            return <span key={index}> {speaker} </span>;
-          })}
-        </div>
-      </div>
-      <div
-        className={`rounded-lg w-full cursor-pointer flex flex-col md:px-3  gap-1`}
-        onClick={() => setToggleDescription(!toggleDescription)}
-      >
-        <div className={`flex md:-mt-5 text-xl font-semibold shadow-muted-orange justify-between  gap-8 w-full items-center py-4 rounded-t-xl px-6 ${
-          toggleDescription ? `shadow-inner relative top-3` : `shadow-md `
-        }`}>
-          <h1>Know More</h1>
-          <div>
-            <svg
-              data-accordion-icon
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-              className={`${
-                toggleDescription ? `rotate-180` : ``
-              } aspect-square w-10 text-primary-orange`}
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
+      </motion.div >
+      {
+        showModal && (
+          <div className="fixed w-screen h-[100vh]  bottom-0 left-0 z-[999] flex items-center justify-center bg-white bg-opacity-10 backdrop-blur-md overflow-y-hidden">
+            <div className="bg-white rounded-lg shadow-l z-[999] p-4 pt-0 md:pt-0 md:p-6 max-w-[250px] max-h-[400px] md:max-w-3xl md:max-h-[500px] overflow-auto relative  w-full">
+              <div className=" flex justify-between py-3 bg-white top-0 right-0">
+
+                <p className='text-xl font-semibold'>Know More</p>
+                <button className="text-gray-600  hover:text-gray-800" onClick={() => setShowModal(false)}>
+                  <FaTimes className="text-primary text-3xl hover:text-primary-orange" />
+                </button>
+              </div>
+              <p className="xl:text-sm 2xl:text-lg text-black">{props.event.description}</p>
+            </div>
           </div>
-        </div>
-        <div
-          className={`${
-            toggleDescription ? `block` : `hidden`
-          }   shadow-muted-orange duration-500 shadow-md rounded-sm p-6 pt-0 transition-all`}
-        >
-          <p className="text-lg">{props.event.description}</p>
-        </div>
-      </div>
-    </div>
+        )
+      }
+    </>
   );
 };
 
