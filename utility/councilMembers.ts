@@ -111,6 +111,14 @@ export const councilMembers = {
     ],
       'seniorCouncil': [
      
+        
+        {
+          name: "Vishu Bansal",
+          position: "President",
+          image: "/assets/images/team/senior/Vishu Bansal.jpg",
+          linkedin: "https://www.linkedin.com/in/vishu-bansal-30385a20b/",
+          instagram: "https://www.instagram.com/vbstellar/"
+        },
         {
           name: "Chaitanya",
           position: "Vice President-Tech",
@@ -119,11 +127,11 @@ export const councilMembers = {
           instagram: "https://www.instagram.com/ultigend_lemate/"
         },
         {
-          name: "Vishu Bansal",
-          position: "President",
-          image: "/assets/images/team/senior/Vishu Bansal.jpg",
-          linkedin: "https://www.linkedin.com/in/vishu-bansal-30385a20b/",
-          instagram: "https://www.instagram.com/vbstellar/"
+          name: "Anuj Singh",
+          position: "Vice President-Non Tech",
+          image: "/assets/images/team/senior/Anuj Singh.jpg",
+          linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
+          instagram: "https://www.instagram.com/anujsingh.22/"
         },
         
         {
@@ -133,13 +141,7 @@ export const councilMembers = {
           linkedin: "https://www.linkedin.com/in/rishabh-goyal-6b7a1b201/?originalSubdomain=in",
           instagram: "https://www.instagram.com/rishabh_goyaal/"
         },
-        {
-          name: "Anuj Singh",
-          position: "Vice President-Non Tech",
-          image: "/assets/images/team/senior/Anuj Singh.jpg",
-          linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
-          instagram: "https://www.instagram.com/anujsingh.22/"
-        },
+        
         {
           name: "Ashish Chotani",
           position: "Tresurer",
