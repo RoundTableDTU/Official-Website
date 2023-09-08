@@ -162,7 +162,15 @@ export const councilMembers = {
           image: "/assets/images/team/senior/Vamsi.jpg",
           linkedin: "https://in.linkedin.com/in/vamsi-vishwanath-9294a3133",
           instagram: "https://www.instagram.com/"
-        }
+        },
+        {
+          name: "Urvi",
+          position: "Design Head ",
+          image: "/assets/images/team/senior/urvi.jpg",
+          linkedin: "https://www.linkedin.com/in/urvi-suhane-4741aa219",
+          instagram: "https://instagram.com/urviiee15?utm_source=qr&igshid=MThlNWY1MzQwNA=="
+        },
+        
         
         
         
