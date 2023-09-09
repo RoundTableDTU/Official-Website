@@ -121,14 +121,14 @@ export const councilMembers = {
         },
         {
           name: "Chaitanya",
-          position: "Vice President-Tech",
+          position: "Vice President",
           image: "/assets/images/team/senior/Chaitanya Anand.jpg",
           linkedin: "https://www.linkedin.com/in/chaitanyanand/",
           instagram: "https://www.instagram.com/ultigend_lemate/"
         },
         {
           name: "Anuj Singh",
-          position: "Vice President-Non Tech",
+          position: "Vice President",
           image: "/assets/images/team/senior/Anuj Singh.jpg",
           linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
           instagram: "https://www.instagram.com/anujsingh.22/"

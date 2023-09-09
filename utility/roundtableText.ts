@@ -9,22 +9,21 @@ export const slides = [
   },
   {
     image: `/assets/images/carouselImages/a2.jpg`,
-    title: `ROUNDTABLE.`,
+    title: `    `,
     mediumTitle: `EVENTS`,
     text: `We conduct regular events & competitions to challenge our skill sets We organize regular meetups, group discussions, case study competitions, and hackathons for students.`,
   },
   {
     image: `/assets/images/carouselImages/a3.jpg`,
-    title: `ROUNDTABLE.`,
+    title: `  `,
     mediumTitle: `SKILL DEVELOPMENT SESSIONS`,
     text: `We organize special sessions conducted by people who are industry leaders These are interactive sessions that involve career guidance, current trends & insights into their fields.`,
   },
   {
     image: `/assets/images/sig.jpeg`,
-    title: `ROUNDTABLE.`,
+    title: `      `,
     mediumTitle: `WORKSHOPS`,
-    text: `    We organise Technical and Non-Technical workshops for our members and other students.
-These include sessions on resumé building, case study analysis and finance and for tech students we have workshops on competitive programming, web dev and machine learning.`,
+    text: ` We organise Sessions like resumé building, case study analysis, finance etc and competetions  on competitive programming, web dev and AI-ML, Cryptic hunt etc throughout the year`,
   },
 ];
 
