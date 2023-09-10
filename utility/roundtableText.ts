@@ -93,9 +93,9 @@ export const accordianText = [
       All of our Informative Webinars are live streamed on YouTube and you can check them out whenever you want. Check out all our social media handles here`,
   },
   {
-    title: `What are SIGs?`,
-    content: `SIGs are special interest groups which the members of the society can become a part of. Here we help members to learn the skills and apply them by assigning them assignments.
-      We offer various SIGs for both tech and non-tech like DSA, AI-ML, Web Dev, Consulting and Analytics, Product Management, Finance, Stock Trading.`,
+    title: `What are Guilds?`,
+    content: `Guilds are groups which the members of the society can become a part of. Here we help members to learn the skills and apply them by assigning them assignments.
+      We offer various guilds for both tech and non-tech like DSA, AI-ML, Web Dev, Consulting and Analytics, Product Management, Finance, Stock Trading.`,
   },
   {
     title: "Why RoundTable is better than other societies?",
@@ -113,9 +113,9 @@ export const aboutRoundTable = `RoundTable DTU provides its members a platform t
   `;
 
 export const sigInfo = {
-  title: `What are SIGs`,
-  heading: `Special Interest Groups.`,
-  text: `We offer a wide range of SIGs in which you get intelligent and hardworking team of mentors who are always there to help you in your journey of skill development and guide you to your ultimate goal.
+  title: `What are Guilds`,
+  heading: ``,
+  text: `We offer a wide range of Guilds in which you get intelligent and hardworking team of mentors who are always there to help you in your journey of skill development and guide you to your ultimate goal.
     You also get an opportunity to do various projects with your seniors that you can showcase in your CV in your job interviews.`,
 };
 
@@ -298,7 +298,7 @@ export const eventData = [
     title: `CRYPTIC HUNT`,
     image: `/assets/images/events/18.webp`,
     date: `27-28 May, 2023`,
-    speakers: [`RoundTable DTU`],
+    speakers: [`Lakshya Kumar`],
     description: `"The Cryptic Hunt" was a 24-hour mind-bending challenge hosted by RoundTable DTU.
     The event aimed to engage participants in a relentless puzzle-solving marathon, testing
     their problem-solving skills and pushing their mental boundaries. Teams competed to

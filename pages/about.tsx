@@ -48,7 +48,7 @@ const About = (props: Props) => {
         <div className="flex h-full flex-col justify-center items-center p-2 pt-10 md:top-36 md:pt-20 md:pb-10 md:gap-12">
           <div className="flex flex-col md:flex-row px-8 md:px-0 gap-8 justify-evenly">
             <div className="flex flex-col justify-center gap-4">
-              <h1 className="md:text-6xl text-4xl  font-bold">What Are <span className="text-primary-orange">SIGs?</span></h1>
+              <h1 className="md:text-6xl text-4xl  font-bold">What Are <span className="text-primary-orange">Guilds?</span></h1>
               <h1 className="text-2xl text-left">{sigInfo.heading}</h1>
             </div>
             <div className="w-1 hidden md:block bg-primary-orange"></div>
@@ -64,7 +64,7 @@ const About = (props: Props) => {
         /> */}
       </div>
       <div className="w-full flex pt-16 flex-col justify-center gap-8">
-        <h1 className="text-4xl px-6 md:px-12 md:text-6xl font-semibold">Frequently Asked <span className="text-primary-orange">Questions</span></h1>
+        <h1 className="text-4xl px-6 md:px-12 md:text-6xl font-semibold">Frequently Asked<span className="text-primary-orange">Questions</span></h1>
         <FaqAccordian className="w-full m-auto rounded-t-lg grid grid-cols-1 md:grid-cols-2 md:px-12 px-5 transition-all box-border gap-x-10 gap-y-10 md:pt-6" />
       </div>
     </Layout>
