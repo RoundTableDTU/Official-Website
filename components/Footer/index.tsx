@@ -1,9 +1,6 @@
-
-
 import React from "react";
 import Image from "next/image";
-import Link from "next/link"
-
+import Link from "next/link";
 
 type Props = {};
 
@@ -34,6 +31,7 @@ const Footer = (props: Props) => {
               <span className="mr-2 "><Link href={'/'}>Home</Link></span>
               <span className="m-2 "><Link href={'/about'}>About</Link></span>
               <span className="m-2 "><Link href={'/events'}>Events</Link></span>
+              <span className="m-2 "><Link href={'/projects'}>Projects</Link></span>
               <span className="m-2 "><Link href={'/team'}>Team</Link></span>
             </div>
           </div>
@@ -87,12 +85,17 @@ const Footer = (props: Props) => {
       </div>
 
       {/* <div>
+      <div className="flex flex-col py-5 font-semibold px-10 md:text-lg md:pb-6 text-white md:items-center md:flex-row md:justify-between">
+        <div className="">© Copyright RoundtableDTU.</div>
+        <div className="pt-3 pb-5">
+          All <span className="text-primary-orange ">Rights</span> Reserved.
+        </div>
+
+        {/* <div>
         Designed by <span className="text-primary-orange">Roundtable</span>
       </div> */}
-
+      </div>
     </div>
-  </div>;
-
 };
 
 export default Footer;

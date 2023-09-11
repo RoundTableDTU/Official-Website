@@ -3,18 +3,20 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Carousel from "../components/Carousel";
-import { homePageAboutText, eventData, eventDataRev } from "../utility/roundtableText";
+import {
+  homePageAboutText,
+  eventData,
+  eventDataRev,
+} from "../utility/roundtableText";
 import AboutCards from "../components/AboutCards";
 import EventCard from "../components/EventCard";
 import EventPageCard from "../components/EventPageCard";
-
-
+import Projects from "../components/Projects";
 
 // latest events come to top and only 4 events come up
 const renderEventPageCards = eventDataRev.slice(0, 4).map((event, index) => {
   return <EventPageCard event={event} key={index} nonce={index + 1} />;
 });
-
 
 const aboutCardInfo = [
   {
@@ -74,8 +76,9 @@ const Home: NextPage = () => {
               Recent <span className="text-primary-orange">Events</span>
             </h1>
 
-            <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-4 px-7">{renderEventPageCards}</div>
-
+            <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-4 px-7">
+              {renderEventPageCards}
+            </div>
           </div>
         </div>
       </Layout>
