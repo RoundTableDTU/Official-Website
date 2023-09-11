@@ -77,13 +77,7 @@ export default function Navbar() {
             <AiOutlineClose className='font-bold text-xl text-white' />
           </div>
           <ul className='space-y-8 text-lg '>
-            <div  className= 'orange-border flex max-[413px]:-translate-y-1/4 min-[414px]:-translate-y-1/2 flex-col text-center items-center bg-black/80 text-gray-200 m-auto rounded-md px-5 py-10 w-64 overflow-y-auto'>
-                  <div className="myButton">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+            <div  className= 'orange-border  animate-pulse   flex max-[413px]:-translate-y-1/4 min-[414px]:-translate-y-1/2 flex-col text-center items-center bg-black/80 text-gray-200 m-auto rounded-md px-5 py-10 w-64 overflow-y-auto'>
                 <div className='space-y-6  '>
                   <li>
                     <ActiveLink href='/'>Home</ActiveLink>
