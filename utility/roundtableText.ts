@@ -59,16 +59,7 @@ export const accordianText = [
   },
   {
     title: `What are the different departments in RoundTable`,
-    content: `Graphic
-      Designing
-      Web Development
-      DSA
-      Corporate Development
-      Content Writing
-      Social Media
-      PR
-      Marketing
-      Management Roles`,
+    content: `Tech Corporate Operations PR Design Content`,
   },
   {
     title: `Why should you join RoundTable DTU?`,
@@ -88,14 +79,12 @@ export const accordianText = [
   {
     title: `How to get updates on what's happening in RoundTable?`,
     content: `On our Instagram and LinkedIn page we post informative content related to Tech and Non Tech topics.
-      On our Instagram page, we also post regular updates regarding multiple events happening in the society.
-      
-      All of our Informative Webinars are live streamed on YouTube and you can check them out whenever you want. Check out all our social media handles here`,
+      On our Instagram page, we also post regular updates regarding multiple events happening in the society.`,
   },
   {
     title: `What are Guilds?`,
     content: `Guilds are groups which the members of the society can become a part of. Here we help members to learn the skills and apply them by assigning them assignments.
-      We offer various guilds for both tech and non-tech like DSA, AI-ML, Web Dev, Consulting and Analytics, Product Management, Finance, Stock Trading.`,
+      We offer various guilds for both tech and non-tech like DSA, Web Dev, Data Analytics, Finance, Design, Cyber Security`,
   },
   {
     title: "Why RoundTable is better than other societies?",
@@ -127,10 +116,6 @@ export const sigList = [
   {
     title: `DSA/CP`,
     image: `/assets/sigs/programming.svg`,
-  },
-  {
-    title: `AI/ML`,
-    image: `/assets/sigs/aiml.svg`,
   },
   {
     title: `Finance`,

@@ -23,16 +23,16 @@ const CouncilMemberCard = (props: Props) => {
     }
   }, [controls, inView]);
   return (
-    <div className="grid rounded-xl  ">
+    <div className="grid rounded-xl">
       <div className="relative group">
         <div className="absolute -inset-0.5 bg-gradient-to-r from-muted-orange to-orange-900 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
         <motion.div ref={ref}
           animate={controls}
           initial="hidden"
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.8 }}
           variants={{
-            visible: { opacity: 1, y: 0 },
-            hidden: { opacity: 0, y: 60 },
+            visible: { scale: 1 },
+            hidden: { scale: 0.8 },
           }} className="relative p-2 md:p-5 text-white bg-black rounded-lg leading-none min-h-full flex flex-col items-center gap-2">
           <Image
             src={props.member.image}

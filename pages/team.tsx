@@ -78,3 +78,4 @@ const Team = (props: Props) => {
 };
 
 export default Team;
+

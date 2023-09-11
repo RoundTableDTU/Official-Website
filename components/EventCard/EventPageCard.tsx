@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"
 
 type Props = {
   image: string;
@@ -11,7 +12,7 @@ const EventPageCard = (props: Props) => {
   return (
     <div className="rounded-md object-cover flex flex-col w-full xl:w-[20vw] text-center gap-2">
       <div className="object-cover">
-        <img src={props.image} alt="" className="rounded-md w-full" />
+        <Image width={400} height={400} src={props.image} alt="" className="rounded-md w-full" />
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-3xl">{props.title}</h2>

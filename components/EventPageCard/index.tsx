@@ -41,11 +41,11 @@ const EventPageCard = (props: Props) => {
         initial="hidden"
         transition={{ duration: 0.4 }}
         variants={{
-          visible: { opacity: 1, y: 0 },
-          hidden: { opacity: 0, y: 60 },
+          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, x: "-100%" }
         }}
         ref={ref}
-        className="max-w-sm bg-black px-6 pt-6 pb-2 shadow-lg transform hover:scale-105 transition duration-500 justify-center mx-auto"
+        className="max-w-sm my-8 bg-black px-6 pt-6 pb-2 shadow-md border-2 border-primary-orange shadow-primary-orange transform hover:scale-105 transition duration-500 justify-center mx-auto"
       >
         {/* <h3 className="mb-6 text-lg md:text-2xl w-auto text-center font-bold text-primary-orange h-12 align-middle">{props.event.title}</h3> */}
         <div className="relative ">
@@ -61,20 +61,20 @@ const EventPageCard = (props: Props) => {
           Speaker:<p className="font-bold text-xl">{props.event.speakers}</p>
         </div>
         <div className="my-4">
-          <div className="flex flex-row">
+          <div className="flex flex-row w-full">
             <div className="flex space-x-1 flex-start mb-1 w-full">
               <div className="text-gray-800 font-semibold justify-start flex flex-row">
-                <img
+                <Image width={32} height={32}
                   src="/assets/images/location.png"
                   alt=""
-                  className="h-8 w-auto"
+                  className="h-8 w-auto my-auto"
                 />
                 <p className="text-white my-auto mx-1 font-base">
                   {props.event.location}
                 </p>
               </div>
             </div>
-            <div className="flex space-x-1 flex-end mb-1 md:-ml-1 w-full">
+            <div className="flex space-x-1 flex-end mb-1 w-full">
               <span className="my-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const EventPageCard = (props: Props) => {
           </div>
           <button
             onClick={() => setShowModal(true)}
-            className="mt-4 text-xl w-full text-white shadow-primary-orange py-2 rounded-base shadow-md"
+            className="mt-4 text-xl w-full text-white bg-primary-orange/30 rounded-lg py-2 rounded-base "
           >
             Know More
           </button>

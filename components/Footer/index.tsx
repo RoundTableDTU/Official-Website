@@ -39,21 +39,21 @@ const Footer = (props: Props) => {
             <h1 className="font-poppins font-bold text-xl md:text-3xl">Follow Us</h1>
             <div className="flex flex-row gap-4 py-3 font-semibold">
               <Link href={'https://www.instagram.com/roundtable_dtu/'}>
-                <img
+                <Image width={40} height={40}
                   src="/assets/logos/insta.png"
 
                   alt="insta logo"
                   className="h-10 md:h-12 text-white cursor-pointer"
                 /></Link>
               <Link href={'https://www.linkedin.com/company/round-table-dtu/'}>
-                <img
+                <Image width={40} height={40}
                   src="/assets/logos/ln.png"
 
                   alt="linkedin logo"
                   className="h-10 md:h-12 text-white cursor-pointer"
                 /></Link>
               <Link href={'https://www.facebook.com/roundtabledtu/'}>
-                <img
+                <Image width={40} height={40}
                   src="/assets/logos/fb.png"
 
                   alt="facebook logo"

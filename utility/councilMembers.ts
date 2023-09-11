@@ -126,7 +126,7 @@ export const councilMembers = {
       position: "Vice President",
       image: "/assets/images/team/senior/Chaitanya Anand.jpg",
       linkedin: "https://www.linkedin.com/in/chaitanyanand/",
-      instagram: "https://www.instagram.com/ultigend_lemate/",
+      instagram: "https://www.instagram.com/ultigendlemate/",
     },
     {
       name: "Anuj Singh",
@@ -138,7 +138,7 @@ export const councilMembers = {
 
     {
       name: "Rishabh Goyal",
-      position: "General Secretary",
+      position: "GenSec",
       image: "/assets/images/team/senior/Rishab Goyal.jpg",
       linkedin:
         "https://www.linkedin.com/in/rishabh-goyal-6b7a1b201/?originalSubdomain=in",
@@ -163,7 +163,7 @@ export const councilMembers = {
 
     {
       name: "Vamsi",
-      position: "Event Head ",
+      position: "Outreach Head",
       image: "/assets/images/team/senior/Vamsi.jpg",
       linkedin: "https://in.linkedin.com/in/vamsi-vishwanath-9294a3133",
       instagram: "https://www.instagram.com/",
