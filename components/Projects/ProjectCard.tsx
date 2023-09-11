@@ -49,24 +49,3 @@ export default function ProjectCard(props: Props) {
     </Link>
   );
 }
-
-// <div className=" border border-orange-500   mx-auto rounded-[8px] my-5 lg:my-16 tilt4 hover:scale-110 duration-300 ease-in  ">
-//   <div className=" py-10 pt-16 no-tilt no-tilt4 border-orange-500 border bg-white-imp h-full">
-//     <div className=" flex items-center justify-center h-[200px] mb-3">
-//       <Image
-//         src={props.imgSrc}
-//         height={200}
-//         width={300}
-//         alt="brand logo"
-//         className="p-5"
-//       />
-//     </div>
-//     <div className="md:col-span-7 space-y-5  px-6 md:pr-5 text-black">
-//       {/* <h1 className="text-5xl font-kanit pt-5 font-bold text-red-700 text-center">
-//           {props.name}
-//         </h1> */}
-//       <h3 className="text-2xl font-kanit  font-semibold">{props.title}</h3>
-//       <p className="text-md font-molengo font-medium">{props.subTitle}</p>
-//     </div>
-//   </div>
-// </div>;
