@@ -90,7 +90,7 @@ export const councilMembers = {
     },
     {
       name: "Parth Jain",
-      position: "Public Relation",
+      position: "PR",
       image: "/assets/images/team/junior/parth.jpg",
       linkedin: "",
       instagram:
@@ -98,7 +98,7 @@ export const councilMembers = {
     },
     {
       name: "Prayas Pandey",
-      position: "Public Relation",
+      position: "PR",
       image: "/assets/images/team/junior/prayas.jpg",
       linkedin: "",
       instagram:
@@ -106,7 +106,7 @@ export const councilMembers = {
     },
     {
       name: "Ayush Rana",
-      position: "Public Relation",
+      position: "PR",
       image: "/assets/images/team/junior/ayush.jpeg",
       linkedin: "https://www.linkedin.com/in/ayush-rana-5a9216262",
       instagram:
