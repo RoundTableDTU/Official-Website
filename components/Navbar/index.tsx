@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ActiveLink from "./ActiveLink";
-import Link from "next/link"
+import Link from "next/link";
 
 type Props = {};
 
@@ -12,21 +12,21 @@ const Navbar = (props: Props) => {
         <div>
           {/* vamsi todo : logo href to home */}
           <Link href={"/"}>
-          <Image
-            src={"/assets/images/rtlogo.png"}            
-            width={100}
-            height={100}
-            alt="round table logo png"
-            className="w-full h-32 py-2"
-          />
+            <Image
+              src={"/assets/images/rtlogo.png"}
+              width={100}
+              height={100}
+              alt="round table logo png"
+              className="w-full h-32 py-2"
+            />
           </Link>
         </div>
-        
       </div>
       <div className="w-full md:w-1/3 flex justify-evenly text-base md:text-xl p-4 font-poppins font-normal md:p-0">
         <ActiveLink href="/">Home</ActiveLink>
         <ActiveLink href={"/about"}>About</ActiveLink>
         <ActiveLink href={"/events"}>Events</ActiveLink>
+        <ActiveLink href={"/projects"}>Projects</ActiveLink>
         <ActiveLink href={"/team"}>Team</ActiveLink>
       </div>
     </div>
