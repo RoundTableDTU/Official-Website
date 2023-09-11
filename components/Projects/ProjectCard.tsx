@@ -15,7 +15,7 @@ interface Props {
 export default function ProjectCard(props: Props) {
   return (
     // @ts-ignore
-    <Link href={props.link}>
+    <Link href={props.link} target="_blank">
       <Tilt
         className="parallax-effect-glare-scale"
         perspective={2000}
