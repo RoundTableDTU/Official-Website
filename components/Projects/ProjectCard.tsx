@@ -30,9 +30,11 @@ export default function ProjectCard(props: Props) {
         >
           <div className="col-span-12">
             <div className="md:w-[100%] md:h-[40vh] h-[250px]flex">
-              <img
+              <Image
                 src={props.imgSrc}
                 alt="brand logo"
+                height={500}
+                width={1000}
                 className="object-cover h-full w-full"
               />
             </div>

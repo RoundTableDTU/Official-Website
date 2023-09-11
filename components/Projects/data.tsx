@@ -13,6 +13,12 @@ const data = {
       link: "https://srijannivaas.com/",
     },
     {
+      image: "/assets/images/projects/growth.png",
+      title: "Growth Rocket",
+      desc: "- It is a comprehensive social media agency that specializes in providing end-to-end services for planning, scheduling, posting, and maintaining organic reach. With a strong track record of serving multiple clients, the agency is dedicated to enhancing the online presence of businesses through strategic social media management. The website of Growth Rocket, built on Next.js and Tailwind CSS, presents a visually captivating experience designed to capture users' attention. Leveraging stunning visuals, impressive animations, and libraries such as Swiper, Framer, and Tilt, the website showcases the agency's expertise in delivering innovative and engaging social media solutions.",
+      link: "http://growthrocket.media/",
+    },
+    {
       image: "/assets/images/projects/incoming.png",
       title: "Incoming India",
       desc: "It is a travel agency's website designed to cater specifically to inbound travelers looking to explore the beauty of India. Built on cutting-edge technologies like Next.js, Tailwind CSS, Framer Motion, and Swiper Slider, the website offers a seamless and visually engaging experience. This travel agency's website, Incoming India, serves as a captivating platform that beautifully showcases the rich and diverse Indian culture. With its modern design and advanced features, it offers a comprehensive resource for travelers, providing them with valuable information, stunning visuals, and enticing itineraries to make their journey through India unforgettable.",
@@ -23,12 +29,6 @@ const data = {
       title: "Forward Education",
       desc: "It is a renowned coaching institute located in West Delhi, specializing in providing expert guidance to class 11 and 12 students in BST, Accounts, and Economics. Led by Meenu Mam, an experienced teacher with over 23 years of experience, the institute has a proven track record of producing multiple 100 scorers. The website of Forward Education serves as a powerful online platform that enhances the institute's presence and reach. Built on Tailwind CSS and equipped with pop-ups and forms to boost conversion rates, the website offers students and parents a comprehensive resource to learn about the institute's offerings, expertise, and exceptional results. Additionally, Google Analytics is utilized to monitor website performance and gather valuable insights",
       link: "https://www.forwardeducation.co.in/",
-    },
-    {
-      image: "/assets/images/projects/growth.png",
-      title: "Growth Rocket",
-      desc: "- It is a comprehensive social media agency that specializes in providing end-to-end services for planning, scheduling, posting, and maintaining organic reach. With a strong track record of serving multiple clients, the agency is dedicated to enhancing the online presence of businesses through strategic social media management. The website of Growth Rocket, built on Next.js and Tailwind CSS, presents a visually captivating experience designed to capture users' attention. Leveraging stunning visuals, impressive animations, and libraries such as Swiper, Framer, and Tilt, the website showcases the agency's expertise in delivering innovative and engaging social media solutions.",
-      link: "http://growthrocket.media/",
     },
   ],
   second: [
