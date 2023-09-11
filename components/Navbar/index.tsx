@@ -1,74 +1,114 @@
-import React, { useState } from "react";
-import ActiveLink from "./ActiveLink";
-import Link from "next/link";
-import Image from "next/image";
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import { RiArrowDropDownLine } from 'react-icons/ri';
+import { AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose } from 'react-icons/ai';
+import Link from 'next/link';
+import ActiveLink from './ActiveLink';
 
-const Navbar = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+export default function Navbar() {
+  const [burger, setBurger] = useState(false);
+  const [dest, setDest] = useState(false);
+  const [color, setColor] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
+  const changeColor = () => {
+    if (window.scrollY >= 96) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeColor);
+
+    return () => {
+      window.removeEventListener('scroll', changeColor);
+    };
+  }, []);
+
+  const toggleBurger = () => {
+    setBurger(!burger);
   };
 
   return (
-    <div className=" w-full main-navbar p-2">
-      <div className="container mx-auto flex justify-between items-center ">
-        {/* Logo on the left */}
-        <Link href="/" className="text-white text-2xl font-bold">
-            <Image
-              src="/assets/images/rtlogo.png"
-              width={100}
-              height={100}
-              alt="round table logo png"
-              className="w-24 h-24 sm:w-28 sm:h-28 relative bottom-1"
-            />
-          
+    <nav
+    className={`${
+      color ? 'main-navbar fixed top-0 left-0 right-0 bg-black z-50 transition-all duration-300 ease-in-out' : ''
+    } ${color ? 'h-[110px]' : 'h-[50px]'} px-10 flex w-full items-center justify-between text-gray-200 hover:text-white`}
+  >
+      <div className={`pb-2 pt-2 ${color ? 'scrolled-down' : ''}`}>
+        <Link href='/' className='text-white text-2xl font-bold'>
+          <Image
+            src='/assets/images/rtlogo.png'
+            width={100}
+            height={100}
+            alt='round table logo png'
+            className={`w-24 h-24 sm:w-28 sm:h-28 -translate-x-5 relative top-4 logo ${color ? 'scrolled-down' : ''}`}
+          />
         </Link>
-
-        {/* Hamburger Menu Button on the right */}
-        <div className="lg:hidden">
-          <button
-            onClick={toggleMobileMenu}
-            className="text-white text-3xl focus:outline-none"
-          >
-            {mobileMenuOpen ? "" : <svg className="block w-7 relative right-2 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-					<title>Mobile menu</title>
-					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-				</svg>
-            }
-          </button>
-        </div>
-        <div className="hidden text-xl lg:flex lg:space-x-6">
-          <ActiveLink href="/">Home</ActiveLink>
-          <ActiveLink href="/about">About</ActiveLink>
-          <ActiveLink href="/events">Events</ActiveLink>
-          <ActiveLink href="/team">Team</ActiveLink>
-        </div>
-
-        {/* Mobile Menu Sidebar */}
-        {mobileMenuOpen && (
-          <div className="fixed z-20  top-0 right-0 h-full bg-black w-full py-4 px-6 text-white">
-            <div className="flex flex-col text-lg gap-y-6 items-center">
-              <div className="flex justify-end w-full ">
-              <button
-                onClick={toggleMobileMenu}
-                className="text-white  text-3xl focus:outline-none mb-4"
-              >
-                ✕
-              </button>
-              </div>
-              <div className="links flex-col flex text-xl gap-y-8 justify-center mt-5 ">
-                <ActiveLink href="/">Home</ActiveLink>
-                <ActiveLink href="/about">About</ActiveLink>
-                <ActiveLink href="/events">Events</ActiveLink>
-                <ActiveLink href="/team">Team</ActiveLink>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
-    </div>
-  );
-};
 
-export default Navbar;
+      <div className='hidden md:block mt-6 pr-10'>
+        <ul className='flex items-center translate-x-8 text-lg space-x-10 font-medium'>
+          
+          <ActiveLink href='/'>Home</ActiveLink>
+
+          <ActiveLink href='/about'>About</ActiveLink>
+
+          <ActiveLink href='/events'>Events</ActiveLink>
+          <ActiveLink href='/projects'>Projects</ActiveLink>
+
+          <ActiveLink href='/team'>Team</ActiveLink>
+        </ul>
+      </div>
+
+      <div className='md:hidden block cursor-pointer '>
+        <div className={`transition-transform duration-300 ${burger ? 'rotate-45' : 'rotate-0'}`} onClick={toggleBurger}>
+          {burger ? "": <AiOutlineMenu className= 'relative top-3 translate-x-4 font-bold text-xl' />}
+        </div>
+      </div>
+
+      {/* Mobile nav */}
+      <div className={`fixed top-0 right-0 ${burger ? 'translate-x-0' : 'translate-x-full'} transition-transform font-poppins block lg:hidden duration-300 h-full w-[100vw] bg-no-repeat bg-cover bg-center`} style={{ zIndex: 28 }}>
+        <div className='flex flex-col justify-center items-center bg-black/80 backdrop-blur-sm h-full w-full'>
+          {/* Cross button */}
+          <div className='self-end absolute top-5 right-3 p-4' onClick={toggleBurger}>
+            <AiOutlineClose className='font-bold text-xl text-white' />
+          </div>
+          <ul className='space-y-8 text-lg '>
+            <div  className= 'orange-border flex max-[413px]:-translate-y-1/4 min-[414px]:-translate-y-1/2 flex-col text-center items-center bg-black/80 text-gray-200 m-auto rounded-md px-5 py-10 w-64 overflow-y-auto'>
+                  <div className="myButton">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+                <div className='space-y-6  '>
+                  <li>
+                    <ActiveLink href='/'>Home</ActiveLink>
+                  </li>
+
+                  <li>
+                    <ActiveLink href='/about'>About</ActiveLink>
+                  </li>
+
+                  <li>
+                    <ActiveLink href='/events'>Events</ActiveLink>
+                  </li>
+                  <li>
+                    <ActiveLink href='/projects'>Projects</ActiveLink>
+                  </li>
+
+                  <li>
+                    <ActiveLink href='/team'>Team</ActiveLink>
+                  </li>
+                </div>
+              
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+}

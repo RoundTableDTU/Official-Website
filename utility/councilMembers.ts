@@ -88,21 +88,21 @@ export const councilMembers = {
     },
     {
       name: "Parth Jain",
-      position: "Public Relation",
+      position: "PR",
       image: "/assets/images/team/junior/parth.jpg",
       linkedin: "",
       instagram: "https://instagram.com/parthjain_1304?utm_source=qr&igshid=OGIxMTE0OTdkZA=="
     },
     {
       name: "Prayas Pandey",
-      position: "Public Relation",
+      position: "PR",
       image: "/assets/images/team/junior/prayas.jpg",
       linkedin: "",
       instagram: "https://instagram.com/pra.yaaas?utm_source=qr&igshid=YzU1NGVlODEzOA=="
     },
     {
       name: "Ayush Rana",
-      position: "Public Relation",
+      position: "PR",
       image: "/assets/images/team/junior/ayush.jpeg",
       linkedin: "https://www.linkedin.com/in/ayush-rana-5a9216262",
       instagram: "https://instagram.com/ayushrana_2?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
