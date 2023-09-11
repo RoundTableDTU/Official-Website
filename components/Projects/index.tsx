@@ -62,7 +62,7 @@ export default function Projects() {
       <h1 className=" text-3xl md:text-7xl font-bold font-kanit mb-3 md:my-5">
         Our <span className="hero-text text-primary-orange">Projects</span>
       </h1>
-      <h3 className="text-2xl md:text-5xl font-semibold md:pt-10 md:pb-16 ">
+      <h3 className="text-2xl md:text-5xl font-semibold md:pt-10 pt-5 pb-0 md:pb-3 ">
         Here are some{" "}
         <span className="hero-text text-primary-orange font-bold">
           Pro-Bono Projects
@@ -72,7 +72,7 @@ export default function Projects() {
       <div className="grid md:grid-cols-2  gap-5 items-end  lg:gap-6">
         {firstRecord}
       </div>
-      <h3 className="text-2xl md:text-5xl font-semibold pt-32 py-10">
+      <h3 className="text-2xl md:text-5xl font-semibold md:pt-32 pt-12 pb-0 md:pb-3">
         Some{" "}
         <span className="hero-text text-primary-orange font-bold">
           Academic Projects
