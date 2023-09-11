@@ -138,6 +138,10 @@ export const sigList = [
   },
   {
     title: `Design`,
+    image: `/assets/sigs/design.png`,
+  },
+  {
+    title: `Cyber Security`,
     image: `/assets/sigs/data.svg`,
   },
 ];
