@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import { AiOutlineMenu } from 'react-icons/ai';
@@ -10,6 +10,7 @@ export default function Navbar() {
   const [burger, setBurger] = useState(false);
   const [dest, setDest] = useState(false);
   const [color, setColor] = useState(false);
+  const mobileNavRef = useRef(null);
 
   const changeColor = () => {
     if (window.scrollY >= 96) {
@@ -18,6 +19,7 @@ export default function Navbar() {
       setColor(false);
     }
   };
+  
 
   useEffect(() => {
     window.addEventListener('scroll', changeColor);
@@ -65,7 +67,7 @@ export default function Navbar() {
 
       <div className='md:hidden block cursor-pointer '>
         <div className={`transition-transform duration-300 ${burger ? 'rotate-45' : 'rotate-0'}`} onClick={toggleBurger}>
-          {burger ? "": <AiOutlineMenu className= 'relative top-3 translate-x-4 font-bold text-xl' />}
+          {burger ? "": <AiOutlineMenu  className= 'relative  top-3 font-bold text-xl' />}
         </div>
       </div>
 
@@ -73,12 +75,14 @@ export default function Navbar() {
       <div className={`fixed top-0 right-0 ${burger ? 'translate-x-0' : 'translate-x-full'} transition-transform font-poppins block lg:hidden duration-300 h-full w-[100vw] bg-no-repeat bg-cover bg-center`} style={{ zIndex: 28 }}>
         <div className='flex flex-col justify-center items-center bg-black/80 backdrop-blur-sm h-full w-full'>
           {/* Cross button */}
-          <div className='self-end absolute top-5 right-3 p-4' onClick={toggleBurger}>
-            <AiOutlineClose className='font-bold text-xl text-white' />
-          </div>
+          
           <ul className='space-y-8 text-lg '>
             <div  className= 'orange-border  animate-pulse   flex max-[413px]:-translate-y-1/4 min-[414px]:-translate-y-1/2 flex-col text-center items-center bg-black/80 text-gray-200 m-auto rounded-md px-5 py-10 w-64 overflow-y-auto'>
                 <div className='space-y-6  '>
+                  {/* CROSS ICON */}
+                <div className='self-end absolute top-0 right-0 p-4' onClick={toggleBurger}>
+                  <AiOutlineClose className='font-bold  text-xl text-white' />
+                </div>
                   <li>
                     <ActiveLink href='/'>Home</ActiveLink>
                   </li>
