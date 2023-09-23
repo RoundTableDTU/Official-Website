@@ -22,7 +22,7 @@ const CountCard = (props: Props) => {
       <CountUp
         end={props.countCard.count}
         suffix=" +"
-        className="text-white text-2xl md:text-5xl"
+        className="text-primary-orange text-2xl md:text-5xl font-extrabold"
         duration={2}
         enableScrollSpy={true}
         scrollSpyDelay={10}
