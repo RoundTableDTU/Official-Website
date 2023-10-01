@@ -127,7 +127,11 @@ export const sigList = [
   },
   {
     title: `Cyber Security`,
-    image: `/assets/sigs/data.svg`,
+    image: `/assets/sigs/cyber.png`,
+  },
+  {
+    title: `Data Analytics`,
+    image: `/assets/sigs/data.png`,
   },
 ];
 
