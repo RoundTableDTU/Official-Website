@@ -9,7 +9,7 @@ const Footer = (props: Props) => {
     <footer className=" bg-gradient-to-r  to-primary-orange from-[#F04512] z-[-10] ">
 
       <div className="text-center">
-        <span className="mx-auto   rounded-md top-0 border font-semibold left-5 md:content-center items-center text-black text-base md:text-3xl font-poppins p-6 lg:px-28 bg-white md:w-2/3">
+        <span className="mx-auto   rounded-md top-0 border font-semibold left-5 md:content-center items-center text-black text-base md:text-3xl font-poppins p-6 lg:px-28 bg-orange-500 md:w-2/3">
           Embark upon an exciting journey.
         </span>
       </div>
@@ -24,11 +24,11 @@ const Footer = (props: Props) => {
 
             </div>
           </div>
-          <div className="px-10 py-4 md:py-0">
-            <h1 className="font-poppins font-bold text-xl md:text-3xl md:mb-4">Quick Access</h1>
+          <div className="px-10 py-4 md:py-0 flex flex-col">
+            <h1 className="font-poppins font-bold text-xl md:text-3xl md:mb-4 ">Quick Access</h1>
 
-            <div className="md:text-xl">
-              <span className="mr-2 "><Link href={'/'}>Home</Link></span>
+            <div className="md:text-xl flex flex-col md:flex-row">
+              <span className="m-2 "><Link href={'/'}>Home</Link></span>
               <span className="m-2 "><Link href={'/about'}>About</Link></span>
               <span className="m-2 "><Link href={'/events'}>Events</Link></span>
               <span className="m-2 "><Link href={'/projects'}>Projects</Link></span>
@@ -39,21 +39,21 @@ const Footer = (props: Props) => {
             <h1 className="font-poppins font-bold text-xl md:text-3xl">Follow Us</h1>
             <div className="flex flex-row gap-4 py-3 font-semibold">
               <Link href={'https://www.instagram.com/roundtable_dtu/'}>
-                <Image width={40} height={40}
+                <Image width={50} height={40}
                   src="/assets/logos/insta.png"
 
                   alt="insta logo"
-                  className="h-10 md:h-12 text-white cursor-pointer"
+                  className="h-12 md:h-12 text-white cursor-pointer"
                 /></Link>
               <Link href={'https://www.linkedin.com/company/round-table-dtu/'}>
-                <Image width={40} height={40}
+                <Image width={50} height={40}
                   src="/assets/logos/ln.png"
 
                   alt="linkedin logo"
                   className="h-10 md:h-12 text-white cursor-pointer"
                 /></Link>
               <Link href={'https://www.facebook.com/roundtabledtu/'}>
-                <Image width={40} height={40}
+                <Image width={50} height={40}
                   src="/assets/logos/fb.png"
 
                   alt="facebook logo"

@@ -147,7 +147,7 @@ export const councilMembers = {
 
     {
       name: "Ashish Chotani",
-      position: "Tresurer",
+      position: "Treasurer",
       image: "/assets/images/team/senior/Ashish.jpg",
       linkedin: "https://www.linkedin.com/in/ashish-chotani",
       instagram: "https://instagram.com/ashishchotani",

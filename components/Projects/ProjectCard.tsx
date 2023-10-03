@@ -41,7 +41,7 @@ export default function ProjectCard(props: Props) {
           </div>
           <div className=" col-span-12 space-y-5 py-2  px-6 md:pr-5 ">
             <h3
-              className={`text-3xl font-kanit  font-semibold text-yellow-400 flex items-center justify-center`}
+              className={`text-3xl font-kanit  font-semibold text-orange-500 flex items-center justify-center`}
             >
               {props.title}
             </h3>
