@@ -1,180 +1,210 @@
 export const councilMembers = {
   juniorCouncil: [
     {
-      name: "Vijay",
+      name: "Ankita Mittal",
       position: "Tech",
-      image: "/assets/images/team/junior/vj1.jpg",
-      linkedin: "https://www.linkedin.com/in/vijay-narayanan-8034a424a/",
-      instagram: "https://www.instagram.com/vijay_181/",
-    },
-    {
-      name: "Rajshekhar",
-      position: "Tech",
-      image: "/assets/images/team/junior/raj.jpg",
-      linkedin: "https://www.linkedin.com/in/rajshekhar-singh-312543251",
-      instagram:
-        "https://instagram.com/rajkunx2?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+      image: "/assets/images/team/junior/ankita.jpg",
+      linkedin: "https://www.linkedin.com/in/ankita-mittal-424b53290/",
+      instagram: "https://www.instagram.com/ankita_mittal1312/",
     },
 
     {
-      name: "Rishi Raj",
+      name: "Preeyansh Agarwalla",
       position: "Tech ",
-      image: "/assets/images/team/junior/rishi.jpg",
-      linkedin: "https://www.linkedin.com/in/rishi-raj-prajapati",
+      image: "/assets/images/team/junior/preeyansh.jpg",
+      linkedin: "https://www.linkedin.com/in/preeyanshagarwalla/",
       instagram:
-        "https://instagram.com/rishii_h.e.r.e?utm_source=qr&igshid=OGIxMTE0OTdkZA==",
+        "https://instagram.com/https://www.instagram.com/preeyanshh/",
     },
     {
-      name: "Rahul Gupta",
-      position: "Non Tech",
-      image: "/assets/images/team/junior/rahul.jpg",
-      linkedin: "https://www.linkedin.com/in/rahul-gupta-43a58524b/",
-      instagram: "https://www.instagram.com/rahul19.x/",
+      name: "Jayesh Joshi",
+      position: "Tech",
+      image: "/assets/images/team/junior/jayesh.jpg",
+      linkedin: "https://www.linkedin.com/in/jayesh-joshi-b99464294",
+      instagram: "https://www.instagram.com/jayeshjoshi2005",
     },
     {
-      name: "Priyank Popli",
+      name: "Sanchali Thareja",
+      position: "Tech",
+      image: "/assets/images/team/junior/sanchali.jpg",
+      linkedin: "https://www.linkedin.com/in/sanchali-thareja-b0942a236",
+      instagram: "https://www.linkedin.com/in/sanchali-thareja-b0942a236",
+    },
+    {
+      name: "Siddharth Jha",
       position: "Non Tech",
-      image: "/assets/images/team/junior/priyank.jpg",
+      image: "/assets/images/team/junior/Siddharth Jha.jpg",
       linkedin: "https://www.linkedin.com/in/priyankpopli",
       instagram: "https://instagram.com/priyankpopli",
     },
     {
-      name: "Tanishq",
-      position: "Corporate",
-      image: "/assets/images/team/junior/tanishq.jpg",
+      name: "Aman Kumar",
+      position: "Non Tech",
+      image: "/assets/images/team/junior/AMAN KUMAR JHA.jpg",
       linkedin: "https://www.linkedin.com/in/tanishq-chauhan-2955a51bb",
       instagram: "https://www.instagram.com/tanishk_chauhan88/",
     },
     {
-      name: "Bhaskar Govil",
+      name: "Sujal Kumar",
       position: "Corporate",
-      image: "/assets/images/team/junior/bhaskar.jpg",
-      linkedin: "http://www.linkedin.com/in/bhaskargovil",
-      instagram: "",
+      image: "/assets/images/team/junior/Sujal Kumar.jpg",
+      linkedin:
+        "https://www.linkedin.com/in/sujal-kumar-b49141292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzifBAzeZQZWaUjBS9bo2nA%3D%3D",
+      instagram:
+        "https://www.instagram.com/sujalkumar_02?igsh=MWh1MXB6YmdhNGU5OA==",
     },
     {
-      name: "Aman Gupta",
+      name: "Janak Raj Goyal",
       position: "Corporate",
-      image: "/assets/images/team/junior/aman.png",
-      linkedin: "https://www.linkedin.com/in/aman-gupta-16a40920a",
-      instagram:
-        "https://instagram.com/sin_cerely__aman?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D",
+      image: "/assets/images/team/junior/janak.jpg",
+      linkedin:
+        "https://www.linkedin.com/in/janak-raj-goyal-3094ab299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      instagram: "https://instagram.com/_janakrg",
     },
     {
-      name: "Mahatva Anand",
+      name: "Divyansh Chauhan",
+      position: "Corporate",
+      image: "/assets/images/team/junior/Divyansh.png",
+      linkedin:
+        "https://www.linkedin.com/in/divyansh-03659126b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/divvyaanssh",
+    },
+    {
+      name: "Urvi Harit",
       position: "Design",
-      image: "/assets/images/team/junior/mahatva.jpg",
-      linkedin: "",
-      instagram: "https://www.instagram.com/mahatva._.anand/",
+      image: "/assets/images/team/junior/urvi.jpg",
+      linkedin:
+        "https://www.linkedin.com/in/urvi-harit-8aaaa32ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://instagram.com/urvixharit.pvt",
     },
+
     {
-      name: "Aryan Singh",
+      name: "Tanisha Shaw",
       position: "Design",
-      image: "/assets/images/team/junior/aryan.jpg",
-      linkedin: "https://www.linkedin.com/in/aryann3000",
-      instagram: "https://instagram.com/aryann3000?igshid=MzRlODBiNWFlZA==",
+      image: "/assets/images/team/junior/Tanisha .png",
+      linkedin:
+        "https://www.linkedin.com/in/tanisha-shaw-09b6a8286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      instagram: "https://instagram.com/i_tanishashaw",
     },
     {
-      name: "Utkarsh Kaurav",
+      name: "Satvik Saxena",
+      position: "Design",
+      image: "/assets/images/team/junior/satvik.jpg",
+      linkedin: "https://www.linkedin.com/in/satvik-saksena",
+      instagram: "https://instagram.com/satviksaksena",
+    },
+    {
+      name: "Saksham Sapra",
       position: "Operations",
-      image: "/assets/images/team/junior/utkarsh.jpg",
-      linkedin: "https://www.linkedin.com/in/utkarsh-kaurav-311385255",
-      instagram: "https://www.instagram.com/utkarshhh_04/",
+      image: "/assets/images/team/junior/Saksham_sapra.jpeg",
+      linkedin:
+        "https://www.linkedin.com/in/saksham-sapra-a41828202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/saksham.07.11",
     },
     {
-      name: "Vaibhav Tiwari",
+      name: "Shikhar Yadav",
       position: "Operations",
-      image: "/assets/images/team/junior/vaibhav.jpg",
-      linkedin: "https://www.linkedin.com/in/vaibhav-tiwari-91880325a/",
-      instagram: "https://www.instagram.com/bewakoof_paipup/",
+      image: "/assets/images/team/junior/shikhar.jpg",
+      linkedin:
+        "https://www.linkedin.com/in/shikhar-yadav-b30693295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/shikhar.ydv",
     },
     {
-      name: "Parth Jain",
+      name: "Raghav Singh",
+      position: "Operations",
+      image: "/assets/images/team/junior/raghav.jpg",
+      linkedin: "https://www.linkedin.com/in/raghav-singh-892261274/",
+      instagram: "https://www.instagram.com/raghavs_29",
+    },
+
+    {
+      name: "Aryan",
       position: "PR",
-      image: "/assets/images/team/junior/parth.jpg",
-      linkedin: "",
-      instagram:
-        "https://instagram.com/parthjain_1304?utm_source=qr&igshid=OGIxMTE0OTdkZA==",
+      image: "/assets/images/team/junior/aryan1.jpg",
+      linkedin:
+        "https://www.instagram.com/aryankr246?igsh=MXBqeWo3ZzQxaGhqag==",
+      instagram: "https://instagram.com/aryankr246",
     },
     {
-      name: "Prayas Pandey",
+      name: "Rohit",
       position: "PR",
-      image: "/assets/images/team/junior/prayas.jpg",
-      linkedin: "",
-      instagram:
-        "https://instagram.com/pra.yaaas?utm_source=qr&igshid=YzU1NGVlODEzOA==",
+      image: "/assets/images/team/junior/rohit.png",
+      linkedin: "http://www.linkedin.com/in/rohit-dtu27",
+      instagram: "https://instagram.com/rohit.kaizen_369",
     },
     {
-      name: "Ayush Rana",
+      name: "Vaibhav Jain",
       position: "PR",
-      image: "/assets/images/team/junior/ayush.jpeg",
-      linkedin: "https://www.linkedin.com/in/ayush-rana-5a9216262",
-      instagram:
-        "https://instagram.com/ayushrana_2?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
+      image: "/assets/images/team/junior/1vaibhav.jpg",
+      linkedin: "https://www.linkedin.com/in/vaibhav-jain-dsa-dev-design/",
+      instagram: "https://www.instagram.com/vaibhavv_.jain/",
     },
   ],
   seniorCouncil: [
     {
-      name: "Vishu Bansal",
+      name: "Parth Jain",
       position: "President",
-      image: "/assets/images/team/senior/Vishu Bansal.jpg",
-      linkedin: "https://www.linkedin.com/in/vishu-bansal-30385a20b/",
-      instagram: "https://www.instagram.com/vbstellar/",
-    },
-    {
-      name: "Chaitanya",
-      position: "Vice President",
-      image: "/assets/images/team/senior/Chaitanya Anand.jpg",
-      linkedin: "https://www.linkedin.com/in/chaitanyanand/",
-      instagram: "https://www.instagram.com/ultigendlemate/",
-    },
-    {
-      name: "Anuj Singh",
-      position: "Vice President",
-      image: "/assets/images/team/senior/Anuj Singh.jpg",
-      linkedin: "https://www.linkedin.com/in/anuj-singh-1584ba230/",
-      instagram: "https://www.instagram.com/anujsingh.22/",
-    },
-
-    {
-      name: "Rishabh Goyal",
-      position: "GenSec",
-      image: "/assets/images/team/senior/Rishab Goyal.jpg",
+      image: "/assets/images/team/senior/parth.jpg",
       linkedin:
-        "https://www.linkedin.com/in/rishabh-goyal-6b7a1b201/?originalSubdomain=in",
-      instagram: "https://www.instagram.com/rishabh_goyaal/",
-    },
-
-    {
-      name: "Ashish Chotani",
-      position: "Treasurer",
-      image: "/assets/images/team/senior/Ashish.jpg",
-      linkedin: "https://www.linkedin.com/in/ashish-chotani",
-      instagram: "https://instagram.com/ashishchotani",
-    },
-
-    {
-      name: "Vaibhav",
-      position: "Event Head ",
-      image: "/assets/images/team/senior/Vaibhav Pratap.jpg",
-      linkedin: "https://www.linkedin.com/in/vaibhav-pratap-singh-73550223a/",
-      instagram: "https://www.instagram.com/vaibh.ps__/",
-    },
-
-    {
-      name: "Vamsi",
-      position: "Outreach Head",
-      image: "/assets/images/team/senior/Vamsi.jpg",
-      linkedin: "https://in.linkedin.com/in/vamsi-vishwanath-9294a3133",
-      instagram: "https://www.instagram.com/",
-    },
-    {
-      name: "Urvi",
-      position: "Design Head ",
-      image: "/assets/images/team/senior/urvi.jpg",
-      linkedin: "https://www.linkedin.com/in/urvi-suhane-4741aa219",
+        "https://www.linkedin.com/in/parth-jain-3b082a314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagram:
-        "https://instagram.com/urviiee15?utm_source=qr&igshid=MThlNWY1MzQwNA==",
+        "https://instagram.com/parthjain_1304?utm_source=qr&igshid=OGIxMTE0OTdkZA==",
+    },
+    {
+      name: "Vijay",
+      position: "Vice President",
+      image: "/assets/images/team/senior/vijay.jpg",
+      linkedin: "https://www.linkedin.com/in/vijay-narayanan-8034a424a/",
+      instagram: "https://www.instagram.com/vijay_181/",
+    },
+
+    {
+      name: "Bhaskar Govil",
+      position: "GenSec",
+      image: "/assets/images/team/senior/bhaskar.jpeg",
+      linkedin: "http://www.linkedin.com/in/bhaskargovil",
+      instagram: "http://www.linkedin.com/in/bhaskargovil",
+    },
+    {
+      name: "Rishi Raj",
+      position: "Joint Secretary",
+      image: "/assets/images/team/senior/rishiraj.jpg",
+      linkedin: "https://www.linkedin.com/in/rishi-raj-prajapati",
+      instagram:
+        "https://instagram.com/rishii_h.e.r.e?utm_source=qr&igshid=OGIxMTE0OTdkZA==",
+    },
+
+    {
+      name: "Rahul Gupta",
+      position: "Treasurer",
+      image: "/assets/images/team/senior/rahul.jpg",
+      linkedin: "https://www.linkedin.com/in/rahul-gupta-43a58524b/",
+      instagram: "https://www.instagram.com/rahul19.x/",
+    },
+
+    {
+      name: "Ayush Rana",
+      position: "Event Head ",
+      image: "/assets/images/team/senior/Ayush.jpeg",
+      linkedin: "https://www.linkedin.com/in/ayush-rana-5a9216262",
+      instagram:
+        "https://instagram.com/ayushrana_2?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
+    },
+
+    {
+      name: "A Vishal Nivash",
+      position: "Outreach Head",
+      image: "/assets/images/team/senior/Vishal.jpg",
+      linkedin: "https://www.linkedin.com/in/a-vishal-nivash-17a0521b0/",
+      instagram: "https://www.instagram.com/a_vishal_nivash/",
+    },
+
+    {
+      name: "Tanishq Chauhan",
+      position: "Outreach Head",
+      image: "/assets/images/team/senior/tanishq.jpg",
+      linkedin: "https://www.linkedin.com/in/tanishq-chauhan-2955a51bb",
+      instagram: "https://www.instagram.com/tanishk_chauhan88/",
     },
   ],
 };
