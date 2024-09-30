@@ -14,7 +14,7 @@ export const councilMembers = {
       image: "/assets/images/team/junior/preeyansh.jpg",
       linkedin: "https://www.linkedin.com/in/preeyanshagarwalla/",
       instagram:
-        "https://instagram.com/https://www.instagram.com/preeyanshh/",
+        "https://www.instagram.com/preeyanshh/",
     },
     {
       name: "Jayesh Joshi",
@@ -34,15 +34,15 @@ export const councilMembers = {
       name: "Siddharth Jha",
       position: "Non Tech",
       image: "/assets/images/team/junior/Siddharth Jha.jpg",
-      linkedin: "https://www.linkedin.com/in/priyankpopli",
-      instagram: "https://instagram.com/priyankpopli",
+      linkedin: "https://www.linkedin.com/in/siddharth-jha-880354289",
+      instagram: "https://instagram.com/siddharthhjha",
     },
     {
       name: "Aman Kumar",
       position: "Non Tech",
       image: "/assets/images/team/junior/AMAN KUMAR JHA.jpg",
-      linkedin: "https://www.linkedin.com/in/tanishq-chauhan-2955a51bb",
-      instagram: "https://www.instagram.com/tanishk_chauhan88/",
+      linkedin: "https://www.linkedin.com/in/aman-kumar-jha-57a5932a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.linkedin.com/in/aman-kumar-jha-57a5932a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "Sujal Kumar",
