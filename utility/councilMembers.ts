@@ -81,7 +81,7 @@ export const councilMembers = {
     {
       name: "Tanisha Shaw",
       position: "Design",
-      image: "/assets/images/team/junior/Tanisha .png",
+      image: "/assets/images/team/junior/Tanisha.jpg",
       linkedin:
         "https://www.linkedin.com/in/tanisha-shaw-09b6a8286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       instagram: "https://instagram.com/i_tanishashaw",
