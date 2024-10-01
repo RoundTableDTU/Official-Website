@@ -298,6 +298,30 @@ export const eventData = [
     crack codes and win fantastic prizes.`,
     location: `DTU`,
   },
+  {
+    title: `HACKOUT`,
+    image: `/assets/images/events/19.png`,
+    date: `30-05/11/2023`,
+    speakers: [`48 hour Hackathon`],
+    description: `Hackout'23, was an annual open-track hackathon organized by Headout in collaboration with TNP DTU and RoundTable DTU.`,
+    location: `DTU`,
+  },
+  {
+    title: `ERROR 404`,
+    image: `/assets/images/events/20.jpg`,
+    date: `10/02/2024`,
+    speakers: [`Competition`],
+    description: `"ERROR 404" by RoundTable is an exhilarating tech challenge that puts participants' detective skills and technical know-how to the test. Teams will embark on a journey to crack the code of an encoded program, unraveling hidden input data as they progress through a series of mind-bending levels. Only the sharpest minds will prevail, and the first three teams to conquer the final puzzle will rise as champions.`,
+    location: `DTU`,
+  },
+  {
+    title: `REVERSE ENGINEERING`,
+    image: `/assets/images/events/21.jpg`,
+    date: `11/02/2024`,
+    speakers: [`Competition`],
+    description: `"Reverse Engineering" by RoundTable is a dynamic competition that challenges participants to showcase their problem-solving skills by working through a series of code snippets. Teams will need to quickly identify and fix bugs within a limited time frame. The event is split into two rounds, with the first serving as an elimination stage to determine which teams will advance to the final challenge.`,
+    location: `DTU`,
+  },
 ];
 
 export const eventDataRev = eventData.reverse();
