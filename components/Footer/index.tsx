@@ -70,9 +70,9 @@ const Footer = (props: Props) => {
           <div className="px-10">
 
             <h1 className="font-poppins font-bold text-xl  md:text-3xl">Contact Us</h1>
-            <h4 className="py-1 md:text-xl">Vishu Bansal (President) <span className="block">7503909232</span></h4>
-            <h4 className="py-1 md:text-xl">Chaitanya (Vice President) <span className="block">9711091823</span></h4>
-            <h4 className="py-1 md:text-xl">Anuj Singh (Vice President) <span className="block">9773721184</span></h4>
+            <h4 className="py-1 md:text-xl">Parth jain (President) <span className="block">+91 93107 61939</span></h4>
+            <h4 className="py-1 md:text-xl">Vijay (Vice President) <span className="block">+91 96507 72007</span></h4>
+            <h4 className="py-1 md:text-xl">Bhaskar Govil (General Secretary) <span className="block">+91 87009 18743</span></h4>
           </div>
         </div>
       </div>
