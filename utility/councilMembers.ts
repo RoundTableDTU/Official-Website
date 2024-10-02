@@ -153,7 +153,7 @@ export const councilMembers = {
     {
       name: "Vijay",
       position: "Vice President",
-      image: "/assets/images/team/senior/vijay.jpg",
+      image: "/assets/images/team/senior/Vijay.jpg",
       linkedin: "https://www.linkedin.com/in/vijay-narayanan-8034a424a/",
       instagram: "https://www.instagram.com/vijay_181/",
     },
