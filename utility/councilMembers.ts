@@ -153,14 +153,14 @@ export const councilMembers = {
     {
       name: "Vijay",
       position: "Vice President",
-      image: "/assets/images/team/senior/vijay.jpg",
+      image: "/assets/images/team/senior/Vijay.jpg",
       linkedin: "https://www.linkedin.com/in/vijay-narayanan-8034a424a/",
       instagram: "https://www.instagram.com/vijay_181/",
     },
 
     {
       name: "Bhaskar Govil",
-      position: "GenSec",
+      position: "General Secretary",
       image: "/assets/images/team/senior/bhaskar.jpeg",
       linkedin: "http://www.linkedin.com/in/bhaskargovil",
       instagram: "http://www.linkedin.com/in/bhaskargovil",
@@ -201,7 +201,7 @@ export const councilMembers = {
 
     {
       name: "Tanishq Chauhan",
-      position: "Outreach Head",
+      position: "Corporate Head",
       image: "/assets/images/team/senior/tanishq.jpg",
       linkedin: "https://www.linkedin.com/in/tanishq-chauhan-2955a51bb",
       instagram: "https://www.instagram.com/tanishk_chauhan88/",
