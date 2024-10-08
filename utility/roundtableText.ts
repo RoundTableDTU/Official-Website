@@ -110,7 +110,7 @@ export const sigInfo = {
 
 export const sigList = [
   {
-    title: `Development`,
+    title: `Web Development/Open Source`,
     image: `/assets/sigs/webd.svg`,
   },
   {
@@ -121,18 +121,18 @@ export const sigList = [
     title: `Finance`,
     image: `/assets/sigs/finance.svg`,
   },
-  {
-    title: `Design`,
-    image: `/assets/sigs/design.png`,
-  },
-  {
-    title: `Cyber Security`,
-    image: `/assets/sigs/cyber.png`,
-  },
-  {
-    title: `Data Analytics`,
-    image: `/assets/sigs/data.png`,
-  },
+  // {
+  //   title: `Design`,
+  //   image: `/assets/sigs/design.png`,
+  // },
+  // {
+  //   title: `Cyber Security`,
+  //   image: `/assets/sigs/cyber.png`,
+  // },
+  // {
+  //   title: `Data Analytics`,
+  //   image: `/assets/sigs/data.png`,
+  // },
 ];
 
 //event page data

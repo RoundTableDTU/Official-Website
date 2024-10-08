@@ -54,7 +54,7 @@ const About = (props: Props) => {
             <div className="w-1 hidden md:block bg-primary-orange"></div>
             <h1 className="md:w-1/2 text-lg leading-8 ">{sigInfo.text}</h1>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-6 md:gap-16 md:justify-around py-9 px-10">{renderSigCardsd}</div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-20 md:justify-around py-9 px-10">{renderSigCardsd}</div>
         </div>
         {/* <div className="h-full w-full absolute z-[2] bg-[#1f0909]/[0.72]"></div> */}
         {/* <img
